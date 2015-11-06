@@ -84,6 +84,12 @@
         "offset": null,
         "syscall": null
     },
+    "__h_errno": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "__inet_addr": {
         "header": "arpa/inet.h",
         "module": "libSceLibcInternal.sprx",
@@ -262,6 +268,12 @@
     },
     "__maskrune": {
         "header": "_ctype.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "__mq_oshandle": {
+        "header": "mqueue.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -1528,6 +1540,42 @@
         "offset": null,
         "syscall": null
     },
+    "endhostent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "endnetent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "endnetgrent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "endprotoent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "endpwent": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "endservent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "endusershell": {
         "header": "unistd.h",
         "module": "libSceLibcInternal.sprx",
@@ -2209,6 +2257,18 @@
         "offset": "1fba0",
         "syscall": null
     },
+    "freeaddrinfo": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "freehostent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "freopen": {
         "header": "stdio.h",
         "module": "libSceLibcInternal.sprx",
@@ -2365,6 +2425,12 @@
         "offset": "8280",
         "syscall": null
     },
+    "gai_strerror": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "gamma": {
         "header": "math.h",
         "module": "libSceLibcInternal.sprx",
@@ -2387,6 +2453,12 @@
         "header": "math.h",
         "module": "libSceLibcInternal.sprx",
         "offset": "49fa0",
+        "syscall": null
+    },
+    "getaddrinfo": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
         "syscall": null
     },
     "getbsize": {
@@ -2527,6 +2599,54 @@
         "offset": "c130",
         "syscall": "79"
     },
+    "gethostbyaddr": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostbyaddr_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostbyname": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostbyname2": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostbyname2_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostbyname_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "gethostent_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "gethostid": {
         "header": "unistd.h",
         "module": "libSceLibcInternal.sprx",
@@ -2537,6 +2657,18 @@
         "header": "unistd.h",
         "module": "libSceLibcInternal.sprx",
         "offset": "3fcc0",
+        "syscall": null
+    },
+    "getipnodebyaddr": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getipnodebyname": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
         "syscall": null
     },
     "getipv4sourcefilter": {
@@ -2584,6 +2716,54 @@
     },
     "getmode": {
         "header": "unistd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnameinfo": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetbyaddr": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetbyaddr_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetbyname": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetbyname_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetent_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getnetgrent": {
+        "header": "netdb.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -2667,6 +2847,78 @@
         "offset": "3fe30",
         "syscall": null
     },
+    "getprotobyname": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getprotobyname_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getprotobynumber": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getprotobynumber_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getprotoent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getprotoent_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwent": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwent_r": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwnam": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwnam_r": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwuid": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getpwuid_r": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "getresgid": {
         "header": "unistd.h",
         "module": "libkernel.sprx",
@@ -2695,6 +2947,42 @@
         "header": "stdio.h",
         "module": "libSceLibcInternal.sprx",
         "offset": "83b0",
+        "syscall": null
+    },
+    "getservbyname": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getservbyname_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getservbyport": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getservbyport_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getservent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "getservent_r": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
         "syscall": null
     },
     "getsid": {
@@ -2829,8 +3117,38 @@
         "offset": null,
         "syscall": null
     },
+    "hcreate": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "hdestroy": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "heapsort": {
         "header": "stdlib.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "herror": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "hsearch": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "hstrerror": {
+        "header": "netdb.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -3069,6 +3387,18 @@
         "header": "stdlib.h",
         "module": "libSceLibcInternal.sprx",
         "offset": "45590",
+        "syscall": null
+    },
+    "innetgr": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "insque": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
         "syscall": null
     },
     "ioctl": {
@@ -3473,6 +3803,12 @@
         "offset": "463f0",
         "syscall": null
     },
+    "lfind": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "lgamma": {
         "header": "math.h",
         "module": "libSceLibcInternal.sprx",
@@ -3717,6 +4053,12 @@
         "header": "math.h",
         "module": "libSceLibcInternal.sprx",
         "offset": "55a20",
+        "syscall": null
+    },
+    "lsearch": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
         "syscall": null
     },
     "lseek": {
@@ -3970,6 +4312,66 @@
         "module": "libkernel.sprx",
         "offset": "c0d0",
         "syscall": "74"
+    },
+    "mq_close": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_getattr": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_notify": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_open": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_receive": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_send": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_setattr": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_timedreceive": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_timedsend": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "mq_unlink": {
+        "header": "mqueue.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
     },
     "mrand48": {
         "header": "stdlib.h",
@@ -5427,6 +5829,12 @@
         "offset": "2b780",
         "syscall": null
     },
+    "remque": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "remquo": {
         "header": "math.h",
         "module": "libSceLibcInternal.sprx",
@@ -5992,6 +6400,120 @@
         "offset": "450",
         "syscall": null
     },
+    "sceUsbdBulkTransfer": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1da0",
+        "syscall": null
+    },
+    "sceUsbdCheckConnected": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "fb0",
+        "syscall": null
+    },
+    "sceUsbdClearHalt": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "5c0",
+        "syscall": null
+    },
+    "sceUsbdClose": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "970",
+        "syscall": null
+    },
+    "sceUsbdControlTransfer": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1cb0",
+        "syscall": null
+    },
+    "sceUsbdExit": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "460",
+        "syscall": null
+    },
+    "sceUsbdFreeConfigDescriptor": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1790",
+        "syscall": null
+    },
+    "sceUsbdFreeDeviceList": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "580",
+        "syscall": null
+    },
+    "sceUsbdGetActiveConfigDescriptor": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "14f0",
+        "syscall": null
+    },
+    "sceUsbdGetConfigDescriptor": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "15d0",
+        "syscall": null
+    },
+    "sceUsbdGetConfigDescriptorByValue": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "16b0",
+        "syscall": null
+    },
+    "sceUsbdGetDeviceDescriptor": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1410",
+        "syscall": null
+    },
+    "sceUsbdGetDeviceList": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "470",
+        "syscall": null
+    },
+    "sceUsbdInit": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "380",
+        "syscall": null
+    },
+    "sceUsbdInterruptTransfer": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1e80",
+        "syscall": null
+    },
+    "sceUsbdOpen": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "880",
+        "syscall": null
+    },
+    "sceUsbdOpenDeviceWithVidPid": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "960",
+        "syscall": null
+    },
+    "sceUsbdResetDevice": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "d10",
+        "syscall": null
+    },
+    "sceUsbdSetInterfaceAltSetting": {
+        "header": "usbd.h",
+        "module": "libSceUsbd.sprx",
+        "offset": "1330",
+        "syscall": null
+    },
     "sched_get_priority_max": {
         "header": "sched.h",
         "module": "libkernel.sprx",
@@ -6243,6 +6765,12 @@
         "offset": "c150",
         "syscall": "80"
     },
+    "sethostent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "sethostid": {
         "header": "unistd.h",
         "module": "libSceLibcInternal.sprx",
@@ -6315,6 +6843,24 @@
         "offset": null,
         "syscall": null
     },
+    "setnetent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "setnetgrent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "setpassent": {
+        "header": "pwd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "setpgid": {
         "header": "unistd.h",
         "module": "libkernel.sprx",
@@ -6341,6 +6887,18 @@
     },
     "setprogname": {
         "header": "stdlib.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "setprotoent": {
+        "header": "netdb.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "setpwent": {
+        "header": "pwd.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -6383,6 +6941,12 @@
     },
     "setruid": {
         "header": "unistd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "setservent": {
+        "header": "netdb.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -6900,6 +7464,12 @@
         "offset": "aa20",
         "syscall": null
     },
+    "strfmon": {
+        "header": "monetary.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "strftime": {
         "header": "time.h",
         "module": "libSceLibcInternal.sprx",
@@ -7314,6 +7884,12 @@
         "offset": "10620",
         "syscall": null
     },
+    "tdelete": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "telldir": {
         "header": "dirent.h",
         "module": "libSceLibcInternal.sprx",
@@ -7322,6 +7898,12 @@
     },
     "tempnam": {
         "header": "stdio.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "tfind": {
+        "header": "search.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -7482,6 +8064,12 @@
         "offset": "58010",
         "syscall": null
     },
+    "tsearch": {
+        "header": "search.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
     "ttyname": {
         "header": "unistd.h",
         "module": "libSceLibcInternal.sprx",
@@ -7490,6 +8078,12 @@
     },
     "ttyname_r": {
         "header": "unistd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "twalk": {
+        "header": "search.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
@@ -7574,6 +8168,12 @@
     },
     "unwhiteout": {
         "header": "unistd.h",
+        "module": "libSceLibcInternal.sprx",
+        "offset": null,
+        "syscall": null
+    },
+    "user_from_uid": {
+        "header": "pwd.h",
         "module": "libSceLibcInternal.sprx",
         "offset": null,
         "syscall": null
