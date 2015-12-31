@@ -191,6 +191,9 @@
         "__srget": {
             "offset": "1f940"
         },
+        "__stack_chk_fail_local": {
+            "offset": null
+        },
         "__swbuf": {
             "offset": "1f950"
         },
@@ -3082,8 +3085,8 @@
         "scePadInit": {
             "offset": "220"
         },
-        "scePadOpe": {
-            "offset": null
+        "scePadOpen": {
+            "offset": "560"
         },
         "scePadRead": {
             "offset": "a60"
@@ -3177,6 +3180,12 @@
         },
         "__pthread_cleanup_push_imp": {
             "offset": "1600"
+        },
+        "__stack_chk_fail": {
+            "offset": "dde0"
+        },
+        "__stack_chk_guard": {
+            "offset": "3d8f0"
         },
         "__syscall": {
             "offset": null,
@@ -4104,11 +4113,24 @@
             "offset": "1e9c0",
             "syscall": "593"
         },
+        "sceKernelGetModuleList": {
+            "offset": "1e920",
+            "syscall": "592"
+        },
         "sceKernelGetProcessTime": {
             "offset": "13380"
         },
         "sceKernelGettimeofday": {
             "offset": "13320"
+        },
+        "sceKernelJitCreateAliasOfSharedMemory": {
+            "offset": "151c0"
+        },
+        "sceKernelJitCreateSharedMemory": {
+            "offset": "15170"
+        },
+        "sceKernelJitMapSharedMemory": {
+            "offset": "15210"
         },
         "sceKernelLoadStartModule": {
             "offset": "1e0e0"
@@ -4118,6 +4140,9 @@
         },
         "sceKernelSleep": {
             "offset": "13170"
+        },
+        "sceKernelStopUnloadModule": {
+            "offset": "1e6b0"
         },
         "sceKernelUsleep": {
             "offset": "13220"
