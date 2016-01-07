@@ -728,21 +728,6 @@
         "erff": {
             "offset": "52a40"
         },
-        "err": {
-            "offset": "3f050"
-        },
-        "err_set_exit": {
-            "offset": "3f040"
-        },
-        "err_set_file": {
-            "offset": "3f020"
-        },
-        "errc": {
-            "offset": "3f1e0"
-        },
-        "errx": {
-            "offset": "3f260"
-        },
         "execl": {
             "offset": null
         },
@@ -2763,15 +2748,6 @@
         "vdprintf": {
             "offset": null
         },
-        "verr": {
-            "offset": "3f1b0"
-        },
-        "verrc": {
-            "offset": "3f0f0"
-        },
-        "verrx": {
-            "offset": "3f2f0"
-        },
         "vfprintf": {
             "offset": "c2b0"
         },
@@ -2811,29 +2787,11 @@
         "vsyslog": {
             "offset": "1fa30"
         },
-        "vwarn": {
-            "offset": "3f500"
-        },
-        "vwarnc": {
-            "offset": "3f450"
-        },
-        "vwarnx": {
-            "offset": "3f700"
-        },
         "vwprintf": {
             "offset": "c8a0"
         },
         "vwscanf": {
             "offset": "c940"
-        },
-        "warn": {
-            "offset": "3f380"
-        },
-        "warnc": {
-            "offset": "3f530"
-        },
-        "warnx": {
-            "offset": "3f5e0"
         },
         "wcpcpy": {
             "offset": null
