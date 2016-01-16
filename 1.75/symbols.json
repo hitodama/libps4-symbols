@@ -4030,6 +4030,10 @@
         "pthread_yield": {
             "offset": "b9a0"
         },
+        "ptrace": {
+            "offset": "e010",
+            "syscall": "26"
+        },
         "pwrite": {
             "offset": "112e0",
             "syscall": "476"
