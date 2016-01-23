@@ -1,10 +1,37 @@
 {
     "libSceCamera.sprx": {
+        "sceCameraAudioOpen": {
+            "offset": "6d00"
+        },
         "sceCameraClose": {
             "offset": "5550"
         },
+        "sceCameraCloseByHandle": {
+            "offset": "55b0"
+        },
+        "sceCameraDevStop": {
+            "offset": null
+        },
+        "sceCameraGetAttribute": {
+            "offset": "5a10"
+        },
+        "sceCameraGetAutoExposureGain": {
+            "offset": "5ba0"
+        },
+        "sceCameraGetAutoWhiteBalance": {
+            "offset": "5d00"
+        },
+        "sceCameraGetCalibrationData": {
+            "offset": "70b0"
+        },
         "sceCameraGetConfig": {
             "offset": "5710"
+        },
+        "sceCameraGetContrast": {
+            "offset": "5e60"
+        },
+        "sceCameraGetDefectivePixelCancellation": {
+            "offset": "5fc0"
         },
         "sceCameraGetDeviceConfig": {
             "offset": "6dc0"
@@ -12,26 +39,107 @@
         "sceCameraGetDeviceInfo": {
             "offset": "5af0"
         },
+        "sceCameraGetExposureGain": {
+            "offset": "6120"
+        },
         "sceCameraGetFrameData": {
             "offset": "5950"
+        },
+        "sceCameraGetGamma": {
+            "offset": "62c0"
+        },
+        "sceCameraGetHue": {
+            "offset": "6460"
+        },
+        "sceCameraGetLensCorrection": {
+            "offset": "65c0"
+        },
+        "sceCameraGetSaturation": {
+            "offset": "6720"
+        },
+        "sceCameraGetSharpness": {
+            "offset": "6880"
+        },
+        "sceCameraGetWhiteBalance": {
+            "offset": "69e0"
         },
         "sceCameraIsAttached": {
             "offset": "6bd0"
         },
+        "sceCameraIsValidFrameData": {
+            "offset": "59b0"
+        },
         "sceCameraOpen": {
             "offset": "5430"
+        },
+        "sceCameraOpenByModuleId": {
+            "offset": "54c0"
+        },
+        "sceCameraProcConfigStop": {
+            "offset": null
+        },
+        "sceCameraSetAttribute": {
+            "offset": "5a80"
+        },
+        "sceCameraSetAutoExposureGain": {
+            "offset": "5c50"
+        },
+        "sceCameraSetAutoWhiteBalance": {
+            "offset": "5db0"
+        },
+        "sceCameraSetCalibData": {
+            "offset": "6c70"
         },
         "sceCameraSetConfig": {
             "offset": "5610"
         },
+        "sceCameraSetConfigInternal": {
+            "offset": "5690"
+        },
+        "sceCameraSetContrast": {
+            "offset": "5f10"
+        },
+        "sceCameraSetDefectivePixelCancellation": {
+            "offset": "6070"
+        },
+        "sceCameraSetExposureGain": {
+            "offset": "6200"
+        },
+        "sceCameraSetGamma": {
+            "offset": "63a0"
+        },
+        "sceCameraSetHue": {
+            "offset": "6510"
+        },
+        "sceCameraSetLensCorrection": {
+            "offset": "6670"
+        },
+        "sceCameraSetSaturation": {
+            "offset": "67d0"
+        },
+        "sceCameraSetSharpness": {
+            "offset": "6930"
+        },
+        "sceCameraSetWhiteBalance": {
+            "offset": "6ac0"
+        },
         "sceCameraStart": {
             "offset": "5790"
         },
+        "sceCameraStartByHandle": {
+            "offset": "5810"
+        },
         "sceCameraStop": {
             "offset": "5890"
+        },
+        "sceCameraStopByHandle": {
+            "offset": "58f0"
         }
     },
     "libSceLibcInternal.sprx": {
+        "DELAY": {
+            "offset": null
+        },
         "_Exit": {
             "offset": "45d50"
         },
@@ -176,6 +284,9 @@
         "__sbtoupper": {
             "offset": null
         },
+        "__sigisempty": {
+            "offset": null
+        },
         "__signbit": {
             "offset": "56850"
         },
@@ -184,6 +295,9 @@
         },
         "__signbitl": {
             "offset": "56870"
+        },
+        "__sigseteq": {
+            "offset": null
         },
         "__sputc": {
             "offset": null
@@ -215,6 +329,9 @@
         "_setjmp": {
             "offset": null
         },
+        "_sleep": {
+            "offset": null
+        },
         "a64l": {
             "offset": null
         },
@@ -223,6 +340,168 @@
         },
         "abs": {
             "offset": "8d0"
+        },
+        "acl_add_flag_np": {
+            "offset": null
+        },
+        "acl_add_perm": {
+            "offset": null
+        },
+        "acl_calc_mask": {
+            "offset": null
+        },
+        "acl_clear_flags_np": {
+            "offset": null
+        },
+        "acl_clear_perms": {
+            "offset": null
+        },
+        "acl_copy_entry": {
+            "offset": null
+        },
+        "acl_copy_ext": {
+            "offset": null
+        },
+        "acl_copy_int": {
+            "offset": null
+        },
+        "acl_create_entry": {
+            "offset": null
+        },
+        "acl_create_entry_np": {
+            "offset": null
+        },
+        "acl_delete_def_file": {
+            "offset": null
+        },
+        "acl_delete_def_link_np": {
+            "offset": null
+        },
+        "acl_delete_entry": {
+            "offset": null
+        },
+        "acl_delete_entry_np": {
+            "offset": null
+        },
+        "acl_delete_fd_np": {
+            "offset": null
+        },
+        "acl_delete_file_np": {
+            "offset": null
+        },
+        "acl_delete_flag_np": {
+            "offset": null
+        },
+        "acl_delete_link_np": {
+            "offset": null
+        },
+        "acl_delete_perm": {
+            "offset": null
+        },
+        "acl_dup": {
+            "offset": null
+        },
+        "acl_free": {
+            "offset": null
+        },
+        "acl_from_text": {
+            "offset": null
+        },
+        "acl_get_brand_np": {
+            "offset": null
+        },
+        "acl_get_entry": {
+            "offset": null
+        },
+        "acl_get_entry_type_np": {
+            "offset": null
+        },
+        "acl_get_fd": {
+            "offset": null
+        },
+        "acl_get_fd_np": {
+            "offset": null
+        },
+        "acl_get_file": {
+            "offset": null
+        },
+        "acl_get_flag_np": {
+            "offset": null
+        },
+        "acl_get_flagset_np": {
+            "offset": null
+        },
+        "acl_get_link_np": {
+            "offset": null
+        },
+        "acl_get_perm_np": {
+            "offset": null
+        },
+        "acl_get_permset": {
+            "offset": null
+        },
+        "acl_get_qualifier": {
+            "offset": null
+        },
+        "acl_get_tag_type": {
+            "offset": null
+        },
+        "acl_init": {
+            "offset": null
+        },
+        "acl_is_trivial_np": {
+            "offset": null
+        },
+        "acl_set_entry_type_np": {
+            "offset": null
+        },
+        "acl_set_fd": {
+            "offset": null
+        },
+        "acl_set_fd_np": {
+            "offset": null
+        },
+        "acl_set_file": {
+            "offset": null
+        },
+        "acl_set_flagset_np": {
+            "offset": null
+        },
+        "acl_set_link_np": {
+            "offset": null
+        },
+        "acl_set_permset": {
+            "offset": null
+        },
+        "acl_set_qualifier": {
+            "offset": null
+        },
+        "acl_set_tag_type": {
+            "offset": null
+        },
+        "acl_size": {
+            "offset": null
+        },
+        "acl_strip_np": {
+            "offset": null
+        },
+        "acl_to_text": {
+            "offset": null
+        },
+        "acl_to_text_np": {
+            "offset": null
+        },
+        "acl_valid": {
+            "offset": null
+        },
+        "acl_valid_fd_np": {
+            "offset": null
+        },
+        "acl_valid_file_np": {
+            "offset": null
+        },
+        "acl_valid_link_np": {
+            "offset": null
         },
         "acos": {
             "offset": "478f0"
@@ -242,6 +521,15 @@
         "alarm": {
             "offset": "3ea10"
         },
+        "alloc_unr": {
+            "offset": null
+        },
+        "alloc_unr_specific": {
+            "offset": null
+        },
+        "alloc_unrl": {
+            "offset": null
+        },
         "alphasort": {
             "offset": null
         },
@@ -252,6 +540,9 @@
             "offset": null
         },
         "amd64_set_gsbase": {
+            "offset": null
+        },
+        "arc4rand": {
             "offset": null
         },
         "arc4random": {
@@ -335,6 +626,144 @@
         "atoll": {
             "offset": "970"
         },
+        "atomic_add_barr_char": {
+            "offset": null
+        },
+        "atomic_add_barr_int": {
+            "offset": null
+        },
+        "atomic_add_barr_long": {
+            "offset": null
+        },
+        "atomic_add_barr_short": {
+            "offset": null
+        },
+        "atomic_add_char": {
+            "offset": null
+        },
+        "atomic_add_int": {
+            "offset": null
+        },
+        "atomic_add_long": {
+            "offset": null
+        },
+        "atomic_add_short": {
+            "offset": null
+        },
+        "atomic_clear_barr_char": {
+            "offset": null
+        },
+        "atomic_clear_barr_int": {
+            "offset": null
+        },
+        "atomic_clear_barr_long": {
+            "offset": null
+        },
+        "atomic_clear_barr_short": {
+            "offset": null
+        },
+        "atomic_clear_char": {
+            "offset": null
+        },
+        "atomic_clear_int": {
+            "offset": null
+        },
+        "atomic_clear_long": {
+            "offset": null
+        },
+        "atomic_clear_short": {
+            "offset": null
+        },
+        "atomic_cmpset_int": {
+            "offset": null
+        },
+        "atomic_cmpset_long": {
+            "offset": null
+        },
+        "atomic_fetchadd_int": {
+            "offset": null
+        },
+        "atomic_fetchadd_long": {
+            "offset": null
+        },
+        "atomic_load_acq_char": {
+            "offset": null
+        },
+        "atomic_load_acq_int": {
+            "offset": null
+        },
+        "atomic_load_acq_long": {
+            "offset": null
+        },
+        "atomic_load_acq_short": {
+            "offset": null
+        },
+        "atomic_readandclear_int": {
+            "offset": null
+        },
+        "atomic_readandclear_long": {
+            "offset": null
+        },
+        "atomic_set_barr_char": {
+            "offset": null
+        },
+        "atomic_set_barr_int": {
+            "offset": null
+        },
+        "atomic_set_barr_long": {
+            "offset": null
+        },
+        "atomic_set_barr_short": {
+            "offset": null
+        },
+        "atomic_set_char": {
+            "offset": null
+        },
+        "atomic_set_int": {
+            "offset": null
+        },
+        "atomic_set_long": {
+            "offset": null
+        },
+        "atomic_set_short": {
+            "offset": null
+        },
+        "atomic_store_rel_char": {
+            "offset": null
+        },
+        "atomic_store_rel_int": {
+            "offset": null
+        },
+        "atomic_store_rel_long": {
+            "offset": null
+        },
+        "atomic_store_rel_short": {
+            "offset": null
+        },
+        "atomic_subtract_barr_char": {
+            "offset": null
+        },
+        "atomic_subtract_barr_int": {
+            "offset": null
+        },
+        "atomic_subtract_barr_long": {
+            "offset": null
+        },
+        "atomic_subtract_barr_short": {
+            "offset": null
+        },
+        "atomic_subtract_char": {
+            "offset": null
+        },
+        "atomic_subtract_int": {
+            "offset": null
+        },
+        "atomic_subtract_long": {
+            "offset": null
+        },
+        "atomic_subtract_short": {
+            "offset": null
+        },
         "basename": {
             "offset": "3eb40"
         },
@@ -365,11 +794,32 @@
         "bintime_sub": {
             "offset": null
         },
+        "bitcount16": {
+            "offset": null
+        },
+        "bitcount32": {
+            "offset": null
+        },
+        "breakpoint": {
+            "offset": null
+        },
         "brk": {
             "offset": null
         },
         "bsearch": {
             "offset": "980"
+        },
+        "bsfl": {
+            "offset": null
+        },
+        "bsfq": {
+            "offset": null
+        },
+        "bsrl": {
+            "offset": null
+        },
+        "bsrq": {
+            "offset": null
         },
         "btowc": {
             "offset": "a10"
@@ -386,8 +836,14 @@
         "cabsl": {
             "offset": null
         },
+        "calculate_crc32c": {
+            "offset": null
+        },
         "calloc": {
             "offset": "1fc30"
+        },
+        "callout_handle_init": {
+            "offset": null
         },
         "carg": {
             "offset": null
@@ -396,6 +852,12 @@
             "offset": null
         },
         "cargl": {
+            "offset": null
+        },
+        "casuword": {
+            "offset": null
+        },
+        "casuword32": {
             "offset": null
         },
         "catclose": {
@@ -494,11 +956,20 @@
         "cimagl": {
             "offset": null
         },
+        "clean_unrhdr": {
+            "offset": null
+        },
+        "clean_unrhdrl": {
+            "offset": null
+        },
         "clearerr": {
             "offset": "cc0"
         },
         "clearerr_unlocked": {
             "offset": "cf0"
+        },
+        "clflush": {
+            "offset": null
         },
         "clock": {
             "offset": "3eb90"
@@ -507,6 +978,12 @@
             "offset": "3ec10"
         },
         "closelog": {
+            "offset": null
+        },
+        "config_intrhook_disestablish": {
+            "offset": null
+        },
+        "config_intrhook_establish": {
             "offset": null
         },
         "confstr": {
@@ -521,6 +998,24 @@
         "conjl": {
             "offset": null
         },
+        "consinit": {
+            "offset": null
+        },
+        "copyin": {
+            "offset": null
+        },
+        "copyin_nofault": {
+            "offset": null
+        },
+        "copyinstr": {
+            "offset": null
+        },
+        "copyout": {
+            "offset": null
+        },
+        "copyout_nofault": {
+            "offset": null
+        },
         "copysign": {
             "offset": "51720"
         },
@@ -529,6 +1024,9 @@
         },
         "copysignl": {
             "offset": "51770"
+        },
+        "copystr": {
+            "offset": null
         },
         "cos": {
             "offset": "517a0"
@@ -554,6 +1052,66 @@
         "cprojl": {
             "offset": null
         },
+        "cpu_activeclock": {
+            "offset": null
+        },
+        "cpu_boot": {
+            "offset": null
+        },
+        "cpu_flush_dcache": {
+            "offset": null
+        },
+        "cpu_idleclock": {
+            "offset": null
+        },
+        "cpu_initclocks": {
+            "offset": null
+        },
+        "cpu_initclocks_ap": {
+            "offset": null
+        },
+        "cpu_initclocks_bsp": {
+            "offset": null
+        },
+        "cpu_monitor": {
+            "offset": null
+        },
+        "cpu_mwait": {
+            "offset": null
+        },
+        "cpu_rootconf": {
+            "offset": null
+        },
+        "cpu_startprofclock": {
+            "offset": null
+        },
+        "cpu_stopprofclock": {
+            "offset": null
+        },
+        "cpu_tickrate": {
+            "offset": null
+        },
+        "cpuid_count": {
+            "offset": null
+        },
+        "cputick2usec": {
+            "offset": null
+        },
+        "cr_cansee": {
+            "offset": null
+        },
+        "cr_canseeinpcb": {
+            "offset": null
+        },
+        "cr_canseesocket": {
+            "offset": null
+        },
+        "crc32": {
+            "offset": null
+        },
+        "crc32_raw": {
+            "offset": null
+        },
         "creal": {
             "offset": null
         },
@@ -561,6 +1119,12 @@
             "offset": null
         },
         "creall": {
+            "offset": null
+        },
+        "critical_enter": {
+            "offset": null
+        },
+        "critical_exit": {
             "offset": null
         },
         "crypt": {
@@ -632,10 +1196,16 @@
         "dbopen": {
             "offset": null
         },
+        "delete_unrhdr": {
+            "offset": null
+        },
         "des_cipher": {
             "offset": null
         },
         "des_setkey": {
+            "offset": null
+        },
+        "dev2udev": {
             "offset": null
         },
         "devname": {
@@ -643,6 +1213,9 @@
         },
         "devname_r": {
             "offset": "3ede0"
+        },
+        "devtoname": {
+            "offset": null
         },
         "difftime": {
             "offset": "5610"
@@ -652,6 +1225,9 @@
         },
         "dirname": {
             "offset": "3eef0"
+        },
+        "disable_intr": {
+            "offset": null
         },
         "div": {
             "offset": "463e0"
@@ -671,6 +1247,9 @@
         "dlvsym": {
             "offset": null
         },
+        "do_cpuid": {
+            "offset": null
+        },
         "dprintf": {
             "offset": null
         },
@@ -682,6 +1261,12 @@
         },
         "dremf": {
             "offset": "58130"
+        },
+        "dumpstatus": {
+            "offset": null
+        },
+        "enable_intr": {
+            "offset": null
         },
         "encrypt": {
             "offset": null
@@ -713,6 +1298,9 @@
         "endutxent": {
             "offset": null
         },
+        "eopnotsupp": {
+            "offset": null
+        },
         "erand48": {
             "offset": "6800"
         },
@@ -742,6 +1330,18 @@
         },
         "errx": {
             "offset": "3f260"
+        },
+        "eventhandler_deregister": {
+            "offset": null
+        },
+        "eventhandler_find_list": {
+            "offset": null
+        },
+        "eventhandler_prune_list": {
+            "offset": null
+        },
+        "eventhandler_register": {
+            "offset": null
         },
         "execl": {
             "offset": null
@@ -897,6 +1497,9 @@
         "fgetln": {
             "offset": "1f960"
         },
+        "fgetown": {
+            "offset": null
+        },
         "fgetpos": {
             "offset": "70c0"
         },
@@ -917,6 +1520,9 @@
         },
         "fileno_unlocked": {
             "offset": "7510"
+        },
+        "fill_kinfo_proc": {
+            "offset": null
         },
         "finite": {
             "offset": "53c60"
@@ -1017,7 +1623,13 @@
         "free": {
             "offset": "1fba0"
         },
+        "free_unr": {
+            "offset": null
+        },
         "freeaddrinfo": {
+            "offset": null
+        },
+        "freeenv": {
             "offset": null
         },
         "freehostent": {
@@ -1044,6 +1656,9 @@
         "fseeko": {
             "offset": "7e40"
         },
+        "fsetown": {
+            "offset": null
+        },
         "fsetpos": {
             "offset": "7e90"
         },
@@ -1065,10 +1680,31 @@
         "ftw": {
             "offset": null
         },
+        "fubyte": {
+            "offset": null
+        },
         "funlockfile": {
             "offset": "6c80"
         },
         "funopen": {
+            "offset": null
+        },
+        "funsetown": {
+            "offset": null
+        },
+        "funsetownlst": {
+            "offset": null
+        },
+        "fuword": {
+            "offset": null
+        },
+        "fuword16": {
+            "offset": null
+        },
+        "fuword32": {
+            "offset": null
+        },
+        "fuword64": {
             "offset": null
         },
         "fwide": {
@@ -1082,6 +1718,9 @@
         },
         "fwscanf": {
             "offset": "8280"
+        },
+        "g_waitidle": {
+            "offset": null
         },
         "gai_strerror": {
             "offset": null
@@ -1127,6 +1766,24 @@
         },
         "getenv": {
             "offset": "42a70"
+        },
+        "getenv_int": {
+            "offset": null
+        },
+        "getenv_long": {
+            "offset": null
+        },
+        "getenv_quad": {
+            "offset": null
+        },
+        "getenv_string": {
+            "offset": null
+        },
+        "getenv_uint": {
+            "offset": null
+        },
+        "getenv_ulong": {
+            "offset": null
         },
         "getgrent": {
             "offset": null
@@ -1347,6 +2004,33 @@
         "group_from_gid": {
             "offset": null
         },
+        "halt": {
+            "offset": null
+        },
+        "hardclock": {
+            "offset": null
+        },
+        "hardclock_anycpu": {
+            "offset": null
+        },
+        "hardclock_cpu": {
+            "offset": null
+        },
+        "hardclock_sync": {
+            "offset": null
+        },
+        "hardclockintr": {
+            "offset": null
+        },
+        "hashdestroy": {
+            "offset": null
+        },
+        "hashinit": {
+            "offset": null
+        },
+        "hashinit_flags": {
+            "offset": null
+        },
         "hcreate": {
             "offset": null
         },
@@ -1357,6 +2041,9 @@
             "offset": null
         },
         "herror": {
+            "offset": null
+        },
+        "hexdump": {
             "offset": null
         },
         "hsearch": {
@@ -1374,6 +2061,9 @@
         "hypotl": {
             "offset": "4a360"
         },
+        "ia32_pause": {
+            "offset": null
+        },
         "ilogb": {
             "offset": "55070"
         },
@@ -1383,11 +2073,20 @@
         "ilogbl": {
             "offset": "55130"
         },
+        "imax": {
+            "offset": null
+        },
         "imaxabs": {
             "offset": "85f0"
         },
         "imaxdiv": {
             "offset": "8600"
+        },
+        "imin": {
+            "offset": null
+        },
+        "inb": {
+            "offset": null
         },
         "index": {
             "offset": "45d80"
@@ -1470,16 +2169,55 @@
         "inet6_rthdr_space": {
             "offset": null
         },
+        "init_param1": {
+            "offset": null
+        },
+        "init_param2": {
+            "offset": null
+        },
+        "init_static_kenv": {
+            "offset": null
+        },
         "initgroups": {
             "offset": null
         },
         "initstate": {
             "offset": "45590"
         },
+        "inl": {
+            "offset": null
+        },
         "innetgr": {
             "offset": null
         },
+        "insb": {
+            "offset": null
+        },
+        "insl": {
+            "offset": null
+        },
         "insque": {
+            "offset": null
+        },
+        "insw": {
+            "offset": null
+        },
+        "intr_disable": {
+            "offset": null
+        },
+        "intr_restore": {
+            "offset": null
+        },
+        "invd": {
+            "offset": null
+        },
+        "invlpg": {
+            "offset": null
+        },
+        "invltlb": {
+            "offset": null
+        },
+        "inw": {
             "offset": null
         },
         "iruserok": {
@@ -1638,7 +2376,145 @@
         "jrand48": {
             "offset": "6930"
         },
+        "kdb_alt_break": {
+            "offset": null
+        },
+        "kdb_alt_break_gdb": {
+            "offset": null
+        },
+        "kdb_backtrace": {
+            "offset": null
+        },
+        "kdb_break": {
+            "offset": null
+        },
+        "kdb_dbbe_select": {
+            "offset": null
+        },
+        "kdb_enter": {
+            "offset": null
+        },
+        "kdb_init": {
+            "offset": null
+        },
+        "kdb_jmpbuf": {
+            "offset": null
+        },
+        "kdb_panic": {
+            "offset": null
+        },
+        "kdb_reboot": {
+            "offset": null
+        },
+        "kdb_reenter": {
+            "offset": null
+        },
+        "kdb_thr_ctx": {
+            "offset": null
+        },
+        "kdb_thr_first": {
+            "offset": null
+        },
+        "kdb_thr_from_pid": {
+            "offset": null
+        },
+        "kdb_thr_lookup": {
+            "offset": null
+        },
+        "kdb_thr_next": {
+            "offset": null
+        },
+        "kdb_thr_select": {
+            "offset": null
+        },
+        "kdb_trap": {
+            "offset": null
+        },
+        "kern_reboot": {
+            "offset": null
+        },
+        "kern_timeout_callwheel_alloc": {
+            "offset": null
+        },
+        "kern_timeout_callwheel_init": {
+            "offset": null
+        },
         "killpg": {
+            "offset": null
+        },
+        "kobj_class_compile": {
+            "offset": null
+        },
+        "kobj_class_compile_static": {
+            "offset": null
+        },
+        "kobj_class_free": {
+            "offset": null
+        },
+        "kobj_create": {
+            "offset": null
+        },
+        "kobj_delete": {
+            "offset": null
+        },
+        "kobj_error_method": {
+            "offset": null
+        },
+        "kobj_init": {
+            "offset": null
+        },
+        "kobj_init_static": {
+            "offset": null
+        },
+        "kobj_lookup_method": {
+            "offset": null
+        },
+        "kproc_create": {
+            "offset": null
+        },
+        "kproc_exit": {
+            "offset": null
+        },
+        "kproc_kthread_add": {
+            "offset": null
+        },
+        "kproc_resume": {
+            "offset": null
+        },
+        "kproc_shutdown": {
+            "offset": null
+        },
+        "kproc_start": {
+            "offset": null
+        },
+        "kproc_suspend": {
+            "offset": null
+        },
+        "kproc_suspend_check": {
+            "offset": null
+        },
+        "kthread_add": {
+            "offset": null
+        },
+        "kthread_exit": {
+            "offset": null
+        },
+        "kthread_resume": {
+            "offset": null
+        },
+        "kthread_shutdown": {
+            "offset": null
+        },
+        "kthread_start": {
+            "offset": null
+        },
+        "kthread_suspend": {
+            "offset": null
+        },
+        "kthread_suspend_check": {
+            "offset": null
+        },
+        "kvprintf": {
             "offset": null
         },
         "l64a": {
@@ -1680,11 +2556,17 @@
         "lgammaf_r": {
             "offset": "4cce0"
         },
+        "lidt": {
+            "offset": null
+        },
         "llabs": {
             "offset": "8880"
         },
         "lldiv": {
             "offset": "46400"
+        },
+        "lldt": {
+            "offset": null
         },
         "llrint": {
             "offset": "582a0"
@@ -1704,6 +2586,57 @@
         "llroundl": {
             "offset": "55370"
         },
+        "lmax": {
+            "offset": null
+        },
+        "lmin": {
+            "offset": null
+        },
+        "load_cr0": {
+            "offset": null
+        },
+        "load_cr3": {
+            "offset": null
+        },
+        "load_cr4": {
+            "offset": null
+        },
+        "load_dr0": {
+            "offset": null
+        },
+        "load_dr1": {
+            "offset": null
+        },
+        "load_dr2": {
+            "offset": null
+        },
+        "load_dr3": {
+            "offset": null
+        },
+        "load_dr4": {
+            "offset": null
+        },
+        "load_dr5": {
+            "offset": null
+        },
+        "load_dr6": {
+            "offset": null
+        },
+        "load_dr7": {
+            "offset": null
+        },
+        "load_ds": {
+            "offset": null
+        },
+        "load_es": {
+            "offset": null
+        },
+        "load_fs": {
+            "offset": null
+        },
+        "load_gs": {
+            "offset": null
+        },
         "localeconv": {
             "offset": "8890"
         },
@@ -1711,6 +2644,9 @@
             "offset": "88b0"
         },
         "localtime_r": {
+            "offset": null
+        },
+        "locc": {
             "offset": null
         },
         "lockf": {
@@ -1736,6 +2672,9 @@
         },
         "log2f": {
             "offset": "4e410"
+        },
+        "log_console": {
+            "offset": null
         },
         "logb": {
             "offset": "55930"
@@ -1779,8 +2718,17 @@
         "lsearch": {
             "offset": null
         },
+        "ltr": {
+            "offset": null
+        },
+        "makecontext": {
+            "offset": "3e210"
+        },
         "malloc": {
             "offset": "1fb10"
+        },
+        "max": {
+            "offset": null
         },
         "mblen": {
             "offset": "8930"
@@ -1832,6 +2780,12 @@
         },
         "mergesort": {
             "offset": "446f0"
+        },
+        "mfence": {
+            "offset": null
+        },
+        "min": {
+            "offset": null
         },
         "mkdtemp": {
             "offset": null
@@ -1890,6 +2844,9 @@
         "mrand48": {
             "offset": "68f0"
         },
+        "msleep_spin": {
+            "offset": null
+        },
         "nan": {
             "offset": "2cc90"
         },
@@ -1907,6 +2864,9 @@
         },
         "nearbyintl": {
             "offset": "55c60"
+        },
+        "new_unrhdr": {
+            "offset": null
         },
         "nextafter": {
             "offset": "55cc0"
@@ -1938,8 +2898,20 @@
         "nl_langinfo": {
             "offset": null
         },
+        "nosys": {
+            "offset": null
+        },
         "nrand48": {
             "offset": "68a0"
+        },
+        "nullop": {
+            "offset": null
+        },
+        "omax": {
+            "offset": null
+        },
+        "omin": {
+            "offset": null
         },
         "opendir": {
             "offset": "3fef0"
@@ -1947,11 +2919,38 @@
         "openlog": {
             "offset": null
         },
+        "outb": {
+            "offset": null
+        },
+        "outl": {
+            "offset": null
+        },
+        "outsb": {
+            "offset": null
+        },
+        "outsl": {
+            "offset": null
+        },
+        "outsw": {
+            "offset": null
+        },
+        "outw": {
+            "offset": null
+        },
+        "panic": {
+            "offset": null
+        },
         "pclose": {
             "offset": "407a0"
         },
         "perror": {
             "offset": "91b0"
+        },
+        "phashinit": {
+            "offset": null
+        },
+        "poll_no_poll": {
+            "offset": null
         },
         "popen": {
             "offset": "404e0"
@@ -2034,6 +3033,9 @@
         "printf": {
             "offset": "9220"
         },
+        "profclock": {
+            "offset": null
+        },
         "psignal": {
             "offset": "40f60"
         },
@@ -2076,6 +3078,15 @@
         "putwchar": {
             "offset": "9470"
         },
+        "qabs": {
+            "offset": null
+        },
+        "qmax": {
+            "offset": null
+        },
+        "qmin": {
+            "offset": null
+        },
         "qsort": {
             "offset": "9480"
         },
@@ -2103,10 +3114,61 @@
         "rcmdsh": {
             "offset": null
         },
+        "rcr0": {
+            "offset": null
+        },
+        "rcr2": {
+            "offset": null
+        },
+        "rcr3": {
+            "offset": null
+        },
+        "rcr4": {
+            "offset": null
+        },
+        "rdmsr": {
+            "offset": null
+        },
+        "rdpmc": {
+            "offset": null
+        },
+        "rdr0": {
+            "offset": null
+        },
+        "rdr1": {
+            "offset": null
+        },
+        "rdr2": {
+            "offset": null
+        },
+        "rdr3": {
+            "offset": null
+        },
+        "rdr4": {
+            "offset": null
+        },
+        "rdr5": {
+            "offset": null
+        },
+        "rdr6": {
+            "offset": null
+        },
+        "rdr7": {
+            "offset": null
+        },
+        "rdtsc": {
+            "offset": null
+        },
+        "rdtsc32": {
+            "offset": null
+        },
         "re_comp": {
             "offset": null
         },
         "re_exec": {
+            "offset": null
+        },
+        "read_rflags": {
             "offset": null
         },
         "readdir": {
@@ -2114,6 +3176,9 @@
         },
         "readdir_r": {
             "offset": "41180"
+        },
+        "realitexpire": {
+            "offset": null
         },
         "realloc": {
             "offset": "1fcd0"
@@ -2160,11 +3225,20 @@
         "remquol": {
             "offset": "506a0"
         },
+        "reset_dbregs": {
+            "offset": null
+        },
         "rewind": {
             "offset": "a130"
         },
         "rewinddir": {
             "offset": "41280"
+        },
+        "rfs": {
+            "offset": null
+        },
+        "rgs": {
+            "offset": null
         },
         "rindex": {
             "offset": "45de0"
@@ -2177,6 +3251,18 @@
         },
         "rintl": {
             "offset": "58420"
+        },
+        "root_mount_hold": {
+            "offset": null
+        },
+        "root_mount_rel": {
+            "offset": null
+        },
+        "root_mount_wait": {
+            "offset": null
+        },
+        "root_mounted": {
+            "offset": null
         },
         "round": {
             "offset": "56660"
@@ -2194,6 +3280,36 @@
             "offset": null
         },
         "rresvport_af": {
+            "offset": null
+        },
+        "rss": {
+            "offset": null
+        },
+        "runq_add": {
+            "offset": null
+        },
+        "runq_add_pri": {
+            "offset": null
+        },
+        "runq_check": {
+            "offset": null
+        },
+        "runq_choose": {
+            "offset": null
+        },
+        "runq_choose_from": {
+            "offset": null
+        },
+        "runq_choose_fuzz": {
+            "offset": null
+        },
+        "runq_init": {
+            "offset": null
+        },
+        "runq_remove": {
+            "offset": null
+        },
+        "runq_remove_idx": {
             "offset": null
         },
         "ruserok": {
@@ -2223,6 +3339,9 @@
         "scalbnl": {
             "offset": "58490"
         },
+        "scanc": {
+            "offset": null
+        },
         "scandir": {
             "offset": null
         },
@@ -2236,6 +3355,9 @@
             "offset": "412b0"
         },
         "semctl": {
+            "offset": null
+        },
+        "set_cputicker": {
             "offset": null
         },
         "setbuf": {
@@ -2337,6 +3459,9 @@
         "setvbuf": {
             "offset": "a3e0"
         },
+        "shutdown_nice": {
+            "offset": null
+        },
         "sigblock": {
             "offset": "3e670"
         },
@@ -2348,6 +3473,9 @@
         },
         "siginterrupt": {
             "offset": "41310"
+        },
+        "signalcontext": {
+            "offset": "3e410"
         },
         "significand": {
             "offset": "56880"
@@ -2388,10 +3516,64 @@
         "sinl": {
             "offset": "56fb0"
         },
+        "skpc": {
+            "offset": null
+        },
         "snprintf": {
             "offset": "a520"
         },
         "sockatmark": {
+            "offset": null
+        },
+        "softclock": {
+            "offset": null
+        },
+        "spl0": {
+            "offset": null
+        },
+        "splbio": {
+            "offset": null
+        },
+        "splcam": {
+            "offset": null
+        },
+        "splclock": {
+            "offset": null
+        },
+        "splhigh": {
+            "offset": null
+        },
+        "splimp": {
+            "offset": null
+        },
+        "splnet": {
+            "offset": null
+        },
+        "splsoftcam": {
+            "offset": null
+        },
+        "splsoftclock": {
+            "offset": null
+        },
+        "splsofttq": {
+            "offset": null
+        },
+        "splsofttty": {
+            "offset": null
+        },
+        "splsoftvm": {
+            "offset": null
+        },
+        "splstatclock": {
+            "offset": null
+        },
+        "spltty": {
+            "offset": null
+        },
+        "splvm": {
+            "offset": null
+        },
+        "splx": {
             "offset": null
         },
         "sprintf": {
@@ -2427,8 +3609,17 @@
         "sscanf": {
             "offset": "a740"
         },
+        "startprofclock": {
+            "offset": null
+        },
+        "statclock": {
+            "offset": null
+        },
         "statvfs": {
             "offset": "41520"
+        },
+        "stopprofclock": {
+            "offset": null
         },
         "stpcpy": {
             "offset": "45e10"
@@ -2574,8 +3765,26 @@
         "strtouq": {
             "offset": "45d40"
         },
+        "strvalid": {
+            "offset": null
+        },
         "strxfrm": {
             "offset": "ae70"
+        },
+        "subyte": {
+            "offset": null
+        },
+        "suword": {
+            "offset": null
+        },
+        "suword16": {
+            "offset": null
+        },
+        "suword32": {
+            "offset": null
+        },
+        "suword64": {
+            "offset": null
         },
         "swab": {
             "offset": null
@@ -2601,8 +3810,1121 @@
         "swscanf": {
             "offset": "b0b0"
         },
+        "sys___acl_aclcheck_fd": {
+            "offset": null
+        },
+        "sys___acl_aclcheck_file": {
+            "offset": null
+        },
+        "sys___acl_aclcheck_link": {
+            "offset": null
+        },
+        "sys___acl_delete_fd": {
+            "offset": null
+        },
+        "sys___acl_delete_file": {
+            "offset": null
+        },
+        "sys___acl_delete_link": {
+            "offset": null
+        },
+        "sys___acl_get_fd": {
+            "offset": null
+        },
+        "sys___acl_get_file": {
+            "offset": null
+        },
+        "sys___acl_get_link": {
+            "offset": null
+        },
+        "sys___acl_set_fd": {
+            "offset": null
+        },
+        "sys___acl_set_file": {
+            "offset": null
+        },
+        "sys___acl_set_link": {
+            "offset": null
+        },
+        "sys___getcwd": {
+            "offset": null
+        },
+        "sys___mac_execve": {
+            "offset": null
+        },
+        "sys___mac_get_fd": {
+            "offset": null
+        },
+        "sys___mac_get_file": {
+            "offset": null
+        },
+        "sys___mac_get_link": {
+            "offset": null
+        },
+        "sys___mac_get_pid": {
+            "offset": null
+        },
+        "sys___mac_get_proc": {
+            "offset": null
+        },
+        "sys___mac_set_fd": {
+            "offset": null
+        },
+        "sys___mac_set_file": {
+            "offset": null
+        },
+        "sys___mac_set_link": {
+            "offset": null
+        },
+        "sys___mac_set_proc": {
+            "offset": null
+        },
+        "sys___semctl": {
+            "offset": null
+        },
+        "sys___setugid": {
+            "offset": null
+        },
+        "sys___sysctl": {
+            "offset": null
+        },
+        "sys__umtx_lock": {
+            "offset": null
+        },
+        "sys__umtx_op": {
+            "offset": null
+        },
+        "sys__umtx_unlock": {
+            "offset": null
+        },
+        "sys_abort2": {
+            "offset": null
+        },
+        "sys_accept": {
+            "offset": null
+        },
+        "sys_access": {
+            "offset": null
+        },
+        "sys_acct": {
+            "offset": null
+        },
+        "sys_adjtime": {
+            "offset": null
+        },
+        "sys_afs3_syscall": {
+            "offset": null
+        },
+        "sys_aio_cancel": {
+            "offset": null
+        },
+        "sys_aio_error": {
+            "offset": null
+        },
+        "sys_aio_fsync": {
+            "offset": null
+        },
+        "sys_aio_read": {
+            "offset": null
+        },
+        "sys_aio_return": {
+            "offset": null
+        },
+        "sys_aio_suspend": {
+            "offset": null
+        },
+        "sys_aio_waitcomplete": {
+            "offset": null
+        },
+        "sys_aio_write": {
+            "offset": null
+        },
+        "sys_audit": {
+            "offset": null
+        },
+        "sys_auditctl": {
+            "offset": null
+        },
+        "sys_auditon": {
+            "offset": null
+        },
+        "sys_bind": {
+            "offset": null
+        },
+        "sys_cap_enter": {
+            "offset": null
+        },
+        "sys_cap_getmode": {
+            "offset": null
+        },
+        "sys_cap_getrights": {
+            "offset": null
+        },
+        "sys_cap_new": {
+            "offset": null
+        },
+        "sys_chdir": {
+            "offset": null
+        },
+        "sys_chflags": {
+            "offset": null
+        },
+        "sys_chmod": {
+            "offset": null
+        },
+        "sys_chown": {
+            "offset": null
+        },
+        "sys_chroot": {
+            "offset": null
+        },
+        "sys_clock_getres": {
+            "offset": null
+        },
+        "sys_clock_gettime": {
+            "offset": null
+        },
+        "sys_clock_settime": {
+            "offset": null
+        },
+        "sys_close": {
+            "offset": null
+        },
+        "sys_closefrom": {
+            "offset": null
+        },
+        "sys_connect": {
+            "offset": null
+        },
+        "sys_cpuset": {
+            "offset": null
+        },
+        "sys_cpuset_getaffinity": {
+            "offset": null
+        },
+        "sys_cpuset_getid": {
+            "offset": null
+        },
+        "sys_cpuset_setaffinity": {
+            "offset": null
+        },
+        "sys_cpuset_setid": {
+            "offset": null
+        },
+        "sys_dup": {
+            "offset": null
+        },
+        "sys_dup2": {
+            "offset": null
+        },
+        "sys_eaccess": {
+            "offset": null
+        },
+        "sys_execve": {
+            "offset": null
+        },
+        "sys_extattr_delete_fd": {
+            "offset": null
+        },
+        "sys_extattr_delete_file": {
+            "offset": null
+        },
+        "sys_extattr_delete_link": {
+            "offset": null
+        },
+        "sys_extattr_get_fd": {
+            "offset": null
+        },
+        "sys_extattr_get_file": {
+            "offset": null
+        },
+        "sys_extattr_get_link": {
+            "offset": null
+        },
+        "sys_extattr_list_fd": {
+            "offset": null
+        },
+        "sys_extattr_list_file": {
+            "offset": null
+        },
+        "sys_extattr_list_link": {
+            "offset": null
+        },
+        "sys_extattr_set_fd": {
+            "offset": null
+        },
+        "sys_extattr_set_file": {
+            "offset": null
+        },
+        "sys_extattr_set_link": {
+            "offset": null
+        },
+        "sys_extattrctl": {
+            "offset": null
+        },
+        "sys_faccessat": {
+            "offset": null
+        },
+        "sys_fchdir": {
+            "offset": null
+        },
+        "sys_fchflags": {
+            "offset": null
+        },
+        "sys_fchmod": {
+            "offset": null
+        },
+        "sys_fchmodat": {
+            "offset": null
+        },
+        "sys_fchown": {
+            "offset": null
+        },
+        "sys_fchownat": {
+            "offset": null
+        },
+        "sys_fcntl": {
+            "offset": null
+        },
+        "sys_fexecve": {
+            "offset": null
+        },
+        "sys_fhopen": {
+            "offset": null
+        },
+        "sys_fhstat": {
+            "offset": null
+        },
+        "sys_fhstatfs": {
+            "offset": null
+        },
+        "sys_flock": {
+            "offset": null
+        },
+        "sys_fork": {
+            "offset": null
+        },
+        "sys_fpathconf": {
+            "offset": null
+        },
+        "sys_fstat": {
+            "offset": null
+        },
+        "sys_fstatat": {
+            "offset": null
+        },
+        "sys_fstatfs": {
+            "offset": null
+        },
+        "sys_fsync": {
+            "offset": null
+        },
+        "sys_ftruncate": {
+            "offset": null
+        },
+        "sys_futimes": {
+            "offset": null
+        },
+        "sys_futimesat": {
+            "offset": null
+        },
+        "sys_getaudit": {
+            "offset": null
+        },
+        "sys_getaudit_addr": {
+            "offset": null
+        },
+        "sys_getauid": {
+            "offset": null
+        },
+        "sys_getcontext": {
+            "offset": null
+        },
+        "sys_getdents": {
+            "offset": null
+        },
+        "sys_getdirentries": {
+            "offset": null
+        },
+        "sys_getdtablesize": {
+            "offset": null
+        },
+        "sys_getegid": {
+            "offset": null
+        },
+        "sys_geteuid": {
+            "offset": null
+        },
+        "sys_getfh": {
+            "offset": null
+        },
+        "sys_getfsstat": {
+            "offset": null
+        },
+        "sys_getgid": {
+            "offset": null
+        },
+        "sys_getgroups": {
+            "offset": null
+        },
+        "sys_getitimer": {
+            "offset": null
+        },
+        "sys_getlogin": {
+            "offset": null
+        },
+        "sys_getloginclass": {
+            "offset": null
+        },
+        "sys_getpeername": {
+            "offset": null
+        },
+        "sys_getpgid": {
+            "offset": null
+        },
+        "sys_getpgrp": {
+            "offset": null
+        },
+        "sys_getpid": {
+            "offset": null
+        },
+        "sys_getppid": {
+            "offset": null
+        },
+        "sys_getpriority": {
+            "offset": null
+        },
+        "sys_getresgid": {
+            "offset": null
+        },
+        "sys_getresuid": {
+            "offset": null
+        },
+        "sys_getrlimit": {
+            "offset": null
+        },
+        "sys_getrusage": {
+            "offset": null
+        },
+        "sys_getsid": {
+            "offset": null
+        },
+        "sys_getsockname": {
+            "offset": null
+        },
+        "sys_getsockopt": {
+            "offset": null
+        },
+        "sys_gettimeofday": {
+            "offset": null
+        },
+        "sys_getuid": {
+            "offset": null
+        },
+        "sys_gssd_syscall": {
+            "offset": null
+        },
+        "sys_ioctl": {
+            "offset": null
+        },
+        "sys_issetugid": {
+            "offset": null
+        },
+        "sys_jail": {
+            "offset": null
+        },
+        "sys_jail_attach": {
+            "offset": null
+        },
+        "sys_jail_get": {
+            "offset": null
+        },
+        "sys_jail_remove": {
+            "offset": null
+        },
+        "sys_jail_set": {
+            "offset": null
+        },
+        "sys_kenv": {
+            "offset": null
+        },
+        "sys_kevent": {
+            "offset": null
+        },
+        "sys_kill": {
+            "offset": null
+        },
+        "sys_kldfind": {
+            "offset": null
+        },
+        "sys_kldfirstmod": {
+            "offset": null
+        },
+        "sys_kldload": {
+            "offset": null
+        },
+        "sys_kldnext": {
+            "offset": null
+        },
+        "sys_kldstat": {
+            "offset": null
+        },
+        "sys_kldsym": {
+            "offset": null
+        },
+        "sys_kldunload": {
+            "offset": null
+        },
+        "sys_kldunloadf": {
+            "offset": null
+        },
+        "sys_kmq_notify": {
+            "offset": null
+        },
+        "sys_kmq_open": {
+            "offset": null
+        },
+        "sys_kmq_setattr": {
+            "offset": null
+        },
+        "sys_kmq_timedreceive": {
+            "offset": null
+        },
+        "sys_kmq_timedsend": {
+            "offset": null
+        },
+        "sys_kmq_unlink": {
+            "offset": null
+        },
+        "sys_kqueue": {
+            "offset": null
+        },
+        "sys_ksem_close": {
+            "offset": null
+        },
+        "sys_ksem_destroy": {
+            "offset": null
+        },
+        "sys_ksem_getvalue": {
+            "offset": null
+        },
+        "sys_ksem_init": {
+            "offset": null
+        },
+        "sys_ksem_open": {
+            "offset": null
+        },
+        "sys_ksem_post": {
+            "offset": null
+        },
+        "sys_ksem_timedwait": {
+            "offset": null
+        },
+        "sys_ksem_trywait": {
+            "offset": null
+        },
+        "sys_ksem_unlink": {
+            "offset": null
+        },
+        "sys_ksem_wait": {
+            "offset": null
+        },
+        "sys_ktimer_create": {
+            "offset": null
+        },
+        "sys_ktimer_delete": {
+            "offset": null
+        },
+        "sys_ktimer_getoverrun": {
+            "offset": null
+        },
+        "sys_ktimer_gettime": {
+            "offset": null
+        },
+        "sys_ktimer_settime": {
+            "offset": null
+        },
+        "sys_ktrace": {
+            "offset": null
+        },
+        "sys_lchflags": {
+            "offset": null
+        },
+        "sys_lchmod": {
+            "offset": null
+        },
+        "sys_lchown": {
+            "offset": null
+        },
+        "sys_lgetfh": {
+            "offset": null
+        },
+        "sys_link": {
+            "offset": null
+        },
+        "sys_linkat": {
+            "offset": null
+        },
+        "sys_lio_listio": {
+            "offset": null
+        },
+        "sys_listen": {
+            "offset": null
+        },
+        "sys_lpathconf": {
+            "offset": null
+        },
+        "sys_lseek": {
+            "offset": null
+        },
+        "sys_lstat": {
+            "offset": null
+        },
+        "sys_lutimes": {
+            "offset": null
+        },
+        "sys_mac_syscall": {
+            "offset": null
+        },
+        "sys_madvise": {
+            "offset": null
+        },
+        "sys_mincore": {
+            "offset": null
+        },
+        "sys_minherit": {
+            "offset": null
+        },
+        "sys_mkdir": {
+            "offset": null
+        },
+        "sys_mkdirat": {
+            "offset": null
+        },
+        "sys_mkfifo": {
+            "offset": null
+        },
+        "sys_mkfifoat": {
+            "offset": null
+        },
+        "sys_mknod": {
+            "offset": null
+        },
+        "sys_mknodat": {
+            "offset": null
+        },
+        "sys_mlock": {
+            "offset": null
+        },
+        "sys_mlockall": {
+            "offset": null
+        },
+        "sys_mmap": {
+            "offset": null
+        },
+        "sys_modfind": {
+            "offset": null
+        },
+        "sys_modfnext": {
+            "offset": null
+        },
+        "sys_modnext": {
+            "offset": null
+        },
+        "sys_modstat": {
+            "offset": null
+        },
+        "sys_mount": {
+            "offset": null
+        },
+        "sys_mprotect": {
+            "offset": null
+        },
+        "sys_msgctl": {
+            "offset": null
+        },
+        "sys_msgget": {
+            "offset": null
+        },
+        "sys_msgrcv": {
+            "offset": null
+        },
+        "sys_msgsnd": {
+            "offset": null
+        },
+        "sys_msgsys": {
+            "offset": null
+        },
+        "sys_msync": {
+            "offset": null
+        },
+        "sys_munlock": {
+            "offset": null
+        },
+        "sys_munlockall": {
+            "offset": null
+        },
+        "sys_munmap": {
+            "offset": null
+        },
+        "sys_nanosleep": {
+            "offset": null
+        },
+        "sys_nfssvc": {
+            "offset": null
+        },
+        "sys_nfstat": {
+            "offset": null
+        },
+        "sys_nlm_syscall": {
+            "offset": null
+        },
+        "sys_nlstat": {
+            "offset": null
+        },
+        "sys_nmount": {
+            "offset": null
+        },
+        "sys_nnpfs_syscall": {
+            "offset": null
+        },
+        "sys_nstat": {
+            "offset": null
+        },
+        "sys_ntp_adjtime": {
+            "offset": null
+        },
+        "sys_ntp_gettime": {
+            "offset": null
+        },
+        "sys_oaio_read": {
+            "offset": null
+        },
+        "sys_oaio_write": {
+            "offset": null
+        },
+        "sys_obreak": {
+            "offset": null
+        },
+        "sys_olio_listio": {
+            "offset": null
+        },
+        "sys_open": {
+            "offset": null
+        },
+        "sys_openat": {
+            "offset": null
+        },
+        "sys_openbsd_poll": {
+            "offset": null
+        },
+        "sys_ovadvise": {
+            "offset": null
+        },
+        "sys_pathconf": {
+            "offset": null
+        },
+        "sys_pdfork": {
+            "offset": null
+        },
+        "sys_pdgetpid": {
+            "offset": null
+        },
+        "sys_pdkill": {
+            "offset": null
+        },
+        "sys_pipe": {
+            "offset": null
+        },
+        "sys_poll": {
+            "offset": null
+        },
+        "sys_posix_fallocate": {
+            "offset": null
+        },
+        "sys_posix_openpt": {
+            "offset": null
+        },
+        "sys_pread": {
+            "offset": null
+        },
+        "sys_preadv": {
+            "offset": null
+        },
+        "sys_profil": {
+            "offset": null
+        },
+        "sys_pselect": {
+            "offset": null
+        },
+        "sys_ptrace": {
+            "offset": null
+        },
+        "sys_pwrite": {
+            "offset": null
+        },
+        "sys_pwritev": {
+            "offset": null
+        },
+        "sys_quotactl": {
+            "offset": null
+        },
+        "sys_rctl_add_rule": {
+            "offset": null
+        },
+        "sys_rctl_get_limits": {
+            "offset": null
+        },
+        "sys_rctl_get_racct": {
+            "offset": null
+        },
+        "sys_rctl_get_rules": {
+            "offset": null
+        },
+        "sys_rctl_remove_rule": {
+            "offset": null
+        },
+        "sys_read": {
+            "offset": null
+        },
+        "sys_readlink": {
+            "offset": null
+        },
+        "sys_readlinkat": {
+            "offset": null
+        },
+        "sys_readv": {
+            "offset": null
+        },
+        "sys_reboot": {
+            "offset": null
+        },
+        "sys_recvfrom": {
+            "offset": null
+        },
+        "sys_recvmsg": {
+            "offset": null
+        },
+        "sys_rename": {
+            "offset": null
+        },
+        "sys_renameat": {
+            "offset": null
+        },
+        "sys_revoke": {
+            "offset": null
+        },
+        "sys_rfork": {
+            "offset": null
+        },
+        "sys_rmdir": {
+            "offset": null
+        },
+        "sys_rtprio": {
+            "offset": null
+        },
+        "sys_rtprio_thread": {
+            "offset": null
+        },
+        "sys_sbrk": {
+            "offset": null
+        },
+        "sys_sched_get_priority_max": {
+            "offset": null
+        },
+        "sys_sched_get_priority_min": {
+            "offset": null
+        },
+        "sys_sched_getparam": {
+            "offset": null
+        },
+        "sys_sched_getscheduler": {
+            "offset": null
+        },
+        "sys_sched_rr_get_interval": {
+            "offset": null
+        },
+        "sys_sched_setparam": {
+            "offset": null
+        },
+        "sys_sched_setscheduler": {
+            "offset": null
+        },
+        "sys_sched_yield": {
+            "offset": null
+        },
+        "sys_sctp_generic_recvmsg": {
+            "offset": null
+        },
+        "sys_sctp_generic_sendmsg": {
+            "offset": null
+        },
+        "sys_sctp_generic_sendmsg_iov": {
+            "offset": null
+        },
+        "sys_sctp_peeloff": {
+            "offset": null
+        },
+        "sys_select": {
+            "offset": null
+        },
+        "sys_semget": {
+            "offset": null
+        },
+        "sys_semop": {
+            "offset": null
+        },
+        "sys_semsys": {
+            "offset": null
+        },
+        "sys_sendfile": {
+            "offset": null
+        },
+        "sys_sendmsg": {
+            "offset": null
+        },
+        "sys_sendto": {
+            "offset": null
+        },
+        "sys_setaudit": {
+            "offset": null
+        },
+        "sys_setaudit_addr": {
+            "offset": null
+        },
+        "sys_setauid": {
+            "offset": null
+        },
+        "sys_setcontext": {
+            "offset": null
+        },
+        "sys_setegid": {
+            "offset": null
+        },
+        "sys_seteuid": {
+            "offset": null
+        },
+        "sys_setfib": {
+            "offset": null
+        },
+        "sys_setgid": {
+            "offset": null
+        },
+        "sys_setgroups": {
+            "offset": null
+        },
+        "sys_setitimer": {
+            "offset": null
+        },
+        "sys_setlogin": {
+            "offset": null
+        },
+        "sys_setloginclass": {
+            "offset": null
+        },
+        "sys_setpgid": {
+            "offset": null
+        },
+        "sys_setpriority": {
+            "offset": null
+        },
+        "sys_setregid": {
+            "offset": null
+        },
+        "sys_setresgid": {
+            "offset": null
+        },
+        "sys_setresuid": {
+            "offset": null
+        },
+        "sys_setreuid": {
+            "offset": null
+        },
+        "sys_setrlimit": {
+            "offset": null
+        },
+        "sys_setsid": {
+            "offset": null
+        },
+        "sys_setsockopt": {
+            "offset": null
+        },
+        "sys_settimeofday": {
+            "offset": null
+        },
+        "sys_setuid": {
+            "offset": null
+        },
+        "sys_shm_open": {
+            "offset": null
+        },
+        "sys_shm_unlink": {
+            "offset": null
+        },
+        "sys_shmat": {
+            "offset": null
+        },
+        "sys_shmctl": {
+            "offset": null
+        },
+        "sys_shmdt": {
+            "offset": null
+        },
+        "sys_shmget": {
+            "offset": null
+        },
+        "sys_shmsys": {
+            "offset": null
+        },
+        "sys_shutdown": {
+            "offset": null
+        },
+        "sys_sigaction": {
+            "offset": null
+        },
+        "sys_sigaltstack": {
+            "offset": null
+        },
+        "sys_sigpending": {
+            "offset": null
+        },
+        "sys_sigprocmask": {
+            "offset": null
+        },
+        "sys_sigqueue": {
+            "offset": null
+        },
+        "sys_sigreturn": {
+            "offset": null
+        },
+        "sys_sigsuspend": {
+            "offset": null
+        },
+        "sys_sigtimedwait": {
+            "offset": null
+        },
+        "sys_sigwait": {
+            "offset": null
+        },
+        "sys_sigwaitinfo": {
+            "offset": null
+        },
+        "sys_socket": {
+            "offset": null
+        },
+        "sys_socketpair": {
+            "offset": null
+        },
+        "sys_sstk": {
+            "offset": null
+        },
+        "sys_stat": {
+            "offset": null
+        },
+        "sys_statfs": {
+            "offset": null
+        },
+        "sys_swapcontext": {
+            "offset": null
+        },
+        "sys_swapoff": {
+            "offset": null
+        },
+        "sys_swapon": {
+            "offset": null
+        },
+        "sys_symlink": {
+            "offset": null
+        },
+        "sys_symlinkat": {
+            "offset": null
+        },
+        "sys_sync": {
+            "offset": null
+        },
+        "sys_sys_exit": {
+            "offset": null
+        },
+        "sys_thr_create": {
+            "offset": null
+        },
+        "sys_thr_exit": {
+            "offset": null
+        },
+        "sys_thr_kill": {
+            "offset": null
+        },
+        "sys_thr_kill2": {
+            "offset": null
+        },
+        "sys_thr_new": {
+            "offset": null
+        },
+        "sys_thr_self": {
+            "offset": null
+        },
+        "sys_thr_set_name": {
+            "offset": null
+        },
+        "sys_thr_suspend": {
+            "offset": null
+        },
+        "sys_thr_wake": {
+            "offset": null
+        },
+        "sys_truncate": {
+            "offset": null
+        },
+        "sys_umask": {
+            "offset": null
+        },
+        "sys_undelete": {
+            "offset": null
+        },
+        "sys_unlink": {
+            "offset": null
+        },
+        "sys_unlinkat": {
+            "offset": null
+        },
+        "sys_unmount": {
+            "offset": null
+        },
+        "sys_utimes": {
+            "offset": null
+        },
+        "sys_utrace": {
+            "offset": null
+        },
+        "sys_uuidgen": {
+            "offset": null
+        },
+        "sys_vfork": {
+            "offset": null
+        },
+        "sys_wait4": {
+            "offset": null
+        },
+        "sys_write": {
+            "offset": null
+        },
+        "sys_writev": {
+            "offset": null
+        },
+        "sys_yield": {
+            "offset": null
+        },
+        "sysbeep": {
+            "offset": null
+        },
+        "sysinit_add": {
+            "offset": null
+        },
         "syslog": {
             "offset": "1f970"
+        },
+        "tablefull": {
+            "offset": null
         },
         "tan": {
             "offset": "57320"
@@ -2628,6 +4950,9 @@
         "tempnam": {
             "offset": null
         },
+        "testenv": {
+            "offset": null
+        },
         "tfind": {
             "offset": null
         },
@@ -2637,6 +4962,15 @@
         "tgammaf": {
             "offset": "57ec0"
         },
+        "thread_lock_block": {
+            "offset": null
+        },
+        "thread_lock_set": {
+            "offset": null
+        },
+        "thread_lock_unblock": {
+            "offset": null
+        },
         "time": {
             "offset": "41740"
         },
@@ -2644,6 +4978,9 @@
             "offset": null
         },
         "timelocal": {
+            "offset": null
+        },
+        "timeout": {
             "offset": null
         },
         "timer_create": {
@@ -2697,6 +5034,9 @@
         "towupper": {
             "offset": "b210"
         },
+        "tprintf": {
+            "offset": null
+        },
         "trunc": {
             "offset": "57ee0"
         },
@@ -2715,6 +5055,24 @@
         "ttyname_r": {
             "offset": null
         },
+        "ttyprintf": {
+            "offset": null
+        },
+        "tunable_int_init": {
+            "offset": null
+        },
+        "tunable_long_init": {
+            "offset": null
+        },
+        "tunable_quad_init": {
+            "offset": null
+        },
+        "tunable_str_init": {
+            "offset": null
+        },
+        "tunable_ulong_init": {
+            "offset": null
+        },
         "twalk": {
             "offset": null
         },
@@ -2728,6 +5086,90 @@
             "offset": null
         },
         "ulimit": {
+            "offset": null
+        },
+        "ulmax": {
+            "offset": null
+        },
+        "ulmin": {
+            "offset": null
+        },
+        "uma_find_refcnt": {
+            "offset": null
+        },
+        "uma_prealloc": {
+            "offset": null
+        },
+        "uma_reclaim": {
+            "offset": null
+        },
+        "uma_set_align": {
+            "offset": null
+        },
+        "uma_startup": {
+            "offset": null
+        },
+        "uma_startup2": {
+            "offset": null
+        },
+        "uma_zalloc": {
+            "offset": null
+        },
+        "uma_zalloc_arg": {
+            "offset": null
+        },
+        "uma_zcreate": {
+            "offset": null
+        },
+        "uma_zdestroy": {
+            "offset": null
+        },
+        "uma_zfree": {
+            "offset": null
+        },
+        "uma_zfree_arg": {
+            "offset": null
+        },
+        "uma_zone_exhausted": {
+            "offset": null
+        },
+        "uma_zone_exhausted_nolock": {
+            "offset": null
+        },
+        "uma_zone_get_cur": {
+            "offset": null
+        },
+        "uma_zone_get_max": {
+            "offset": null
+        },
+        "uma_zone_set_allocf": {
+            "offset": null
+        },
+        "uma_zone_set_fini": {
+            "offset": null
+        },
+        "uma_zone_set_freef": {
+            "offset": null
+        },
+        "uma_zone_set_init": {
+            "offset": null
+        },
+        "uma_zone_set_max": {
+            "offset": null
+        },
+        "uma_zone_set_obj": {
+            "offset": null
+        },
+        "uma_zone_set_zfini": {
+            "offset": null
+        },
+        "uma_zone_set_zinit": {
+            "offset": null
+        },
+        "uma_zsecond_add": {
+            "offset": null
+        },
+        "uma_zsecond_create": {
             "offset": null
         },
         "uname": {
@@ -2745,10 +5187,22 @@
         "unsetenv": {
             "offset": "436a0"
         },
+        "untimeout": {
+            "offset": null
+        },
         "unwhiteout": {
             "offset": null
         },
+        "uprintf": {
+            "offset": null
+        },
+        "ureadc": {
+            "offset": null
+        },
         "user_from_uid": {
+            "offset": null
+        },
+        "usrinfoinit": {
             "offset": null
         },
         "utime": {
@@ -2796,6 +5250,9 @@
         "vsnprintf": {
             "offset": "c5d0"
         },
+        "vsnrprintf": {
+            "offset": null
+        },
         "vsprintf": {
             "offset": "c680"
         },
@@ -2826,6 +5283,12 @@
         "vwscanf": {
             "offset": "c940"
         },
+        "wakeup": {
+            "offset": null
+        },
+        "wakeup_one": {
+            "offset": null
+        },
         "warn": {
             "offset": "3f380"
         },
@@ -2834,6 +5297,9 @@
         },
         "warnx": {
             "offset": "3f5e0"
+        },
+        "wbinvd": {
+            "offset": null
         },
         "wcpcpy": {
             "offset": null
@@ -2991,6 +5457,12 @@
         "wprintf": {
             "offset": "d9a0"
         },
+        "write_rflags": {
+            "offset": null
+        },
+        "wrmsr": {
+            "offset": null
+        },
         "wscanf": {
             "offset": "daf0"
         },
@@ -3014,6 +5486,9 @@
         },
         "ynf": {
             "offset": "4cb90"
+        },
+        "zone_drain": {
+            "offset": null
         }
     },
     "libSceNet.sprx": {
@@ -3249,6 +5724,18 @@
         "amd64_set_fsbase": {
             "offset": "df20"
         },
+        "audit": {
+            "offset": null,
+            "syscall": "445"
+        },
+        "auditctl": {
+            "offset": null,
+            "syscall": "453"
+        },
+        "auditon": {
+            "offset": null,
+            "syscall": "446"
+        },
         "bind": {
             "offset": "c310",
             "syscall": "104"
@@ -3297,6 +5784,26 @@
             "offset": "9f50",
             "syscall": "98"
         },
+        "cpuset": {
+            "offset": "d530",
+            "syscall": "484"
+        },
+        "cpuset_getaffinity": {
+            "offset": "d590",
+            "syscall": "487"
+        },
+        "cpuset_getid": {
+            "offset": "d570",
+            "syscall": "486"
+        },
+        "cpuset_setaffinity": {
+            "offset": "d5b0",
+            "syscall": "488"
+        },
+        "cpuset_setid": {
+            "offset": "d550",
+            "syscall": "485"
+        },
         "creat": {
             "offset": "9fa0"
         },
@@ -3310,7 +5817,8 @@
             "offset": "1ee50"
         },
         "dlsym": {
-            "offset": "1ee80"
+            "offset": "1ee80",
+            "syscall": "591 // recheck, clashes std C dlsym in direct call mode"
         },
         "dup": {
             "offset": "be30",
@@ -3382,6 +5890,30 @@
             "offset": "c790",
             "syscall": "192"
         },
+        "freebsd6_ftruncate": {
+            "offset": null,
+            "syscall": "201"
+        },
+        "freebsd6_lseek": {
+            "offset": null,
+            "syscall": "199"
+        },
+        "freebsd6_mmap": {
+            "offset": null,
+            "syscall": "197"
+        },
+        "freebsd6_pread": {
+            "offset": null,
+            "syscall": "173"
+        },
+        "freebsd6_pwrite": {
+            "offset": null,
+            "syscall": "174"
+        },
+        "freebsd6_truncate": {
+            "offset": null,
+            "syscall": "200"
+        },
         "fstat": {
             "offset": "c050",
             "syscall": "189"
@@ -3405,6 +5937,22 @@
         "futimesat": {
             "offset": "d630",
             "syscall": "494"
+        },
+        "getaudit": {
+            "offset": null,
+            "syscall": "449"
+        },
+        "getaudit_addr": {
+            "offset": null,
+            "syscall": "451"
+        },
+        "getauid": {
+            "offset": null,
+            "syscall": "447"
+        },
+        "getcontext": {
+            "offset": "dfb0",
+            "syscall": "421"
         },
         "getdents": {
             "offset": "c9f0",
@@ -3526,9 +6074,109 @@
             "offset": "c970",
             "syscall": "253"
         },
+        "jail": {
+            "offset": null,
+            "syscall": "338"
+        },
+        "jail_attach": {
+            "offset": null,
+            "syscall": "436"
+        },
+        "jail_get": {
+            "offset": null,
+            "syscall": "506"
+        },
+        "jail_remove": {
+            "offset": null,
+            "syscall": "508"
+        },
+        "jail_set": {
+            "offset": null,
+            "syscall": "507"
+        },
+        "kevent": {
+            "offset": "ce30",
+            "syscall": "363"
+        },
         "kill": {
             "offset": "bdb0",
             "syscall": "37"
+        },
+        "kldfind": {
+            "offset": "cad0",
+            "syscall": "306"
+        },
+        "kldfirstmod": {
+            "offset": "cb30",
+            "syscall": "309"
+        },
+        "kldload": {
+            "offset": "ca90",
+            "syscall": "304"
+        },
+        "kldnext": {
+            "offset": "caf0",
+            "syscall": "307"
+        },
+        "kldstat": {
+            "offset": "cb10",
+            "syscall": "308"
+        },
+        "kldsym": {
+            "offset": "cd90",
+            "syscall": "337"
+        },
+        "kldunload": {
+            "offset": "cab0",
+            "syscall": "305"
+        },
+        "kldunloadf": {
+            "offset": null,
+            "syscall": "444"
+        },
+        "kqueue": {
+            "offset": "ce10",
+            "syscall": "362"
+        },
+        "ksem_close": {
+            "offset": "cfd0",
+            "syscall": "400"
+        },
+        "ksem_destroy": {
+            "offset": "d0d0",
+            "syscall": "408"
+        },
+        "ksem_getvalue": {
+            "offset": "d0b0",
+            "syscall": "407"
+        },
+        "ksem_init": {
+            "offset": "d050",
+            "syscall": "404"
+        },
+        "ksem_open": {
+            "offset": "d070",
+            "syscall": "405"
+        },
+        "ksem_post": {
+            "offset": "cff0",
+            "syscall": "401"
+        },
+        "ksem_timedwait": {
+            "offset": "d290",
+            "syscall": "441"
+        },
+        "ksem_trywait": {
+            "offset": "d030",
+            "syscall": "403"
+        },
+        "ksem_unlink": {
+            "offset": "d090",
+            "syscall": "406"
+        },
+        "ksem_wait": {
+            "offset": "d010",
+            "syscall": "402"
         },
         "lchflags": {
             "offset": "cf90",
@@ -3621,6 +6269,22 @@
         "mmap": {
             "offset": "112c0",
             "syscall": "477"
+        },
+        "modfind": {
+            "offset": null,
+            "syscall": "303"
+        },
+        "modfnext": {
+            "offset": null,
+            "syscall": "302"
+        },
+        "modnext": {
+            "offset": null,
+            "syscall": "300"
+        },
+        "modstat": {
+            "offset": null,
+            "syscall": "301"
         },
         "mprotect": {
             "offset": "c0d0",
@@ -4099,12 +6763,32 @@
             "offset": "c5f0",
             "syscall": "137"
         },
+        "rtprio": {
+            "offset": null,
+            "syscall": "166"
+        },
+        "rtprio_thread": {
+            "offset": "d470",
+            "syscall": "466"
+        },
         "sbrk": {
             "offset": null,
             "syscall": "69"
         },
+        "sceKernelAddReadEvent": {
+            "offset": "17700"
+        },
+        "sceKernelAddUserEvent": {
+            "offset": "17a80"
+        },
         "sceKernelAllocateDirectMemory": {
             "offset": "14ad0"
+        },
+        "sceKernelCreateEqueue": {
+            "offset": "17300"
+        },
+        "sceKernelDeleteEqueue": {
+            "offset": "17370"
         },
         "sceKernelDlsym": {
             "offset": "1e610",
@@ -4146,7 +6830,8 @@
             "offset": "13170"
         },
         "sceKernelStopUnloadModule": {
-            "offset": "1e6b0"
+            "offset": "1e6b0",
+            "syscall": "595"
         },
         "sceKernelUsleep": {
             "offset": "13220"
@@ -4282,6 +6967,22 @@
         "sendto": {
             "offset": "a800",
             "syscall": "133"
+        },
+        "setaudit": {
+            "offset": null,
+            "syscall": "450"
+        },
+        "setaudit_addr": {
+            "offset": null,
+            "syscall": "452"
+        },
+        "setauid": {
+            "offset": null,
+            "syscall": "448"
+        },
+        "setcontext": {
+            "offset": "8eb0",
+            "syscall": "422"
         },
         "setegid": {
             "offset": "c730",
@@ -4470,6 +7171,10 @@
             "offset": "bdd0",
             "syscall": "188"
         },
+        "swapcontext": {
+            "offset": "8f20",
+            "syscall": "423"
+        },
         "swapoff": {
             "offset": null,
             "syscall": "424"
@@ -4500,6 +7205,15 @@
         },
         "sysconf": {
             "offset": "fae0"
+        },
+        "sysctl": {
+            "offset": "101d0"
+        },
+        "sysctlbyname": {
+            "offset": "10350"
+        },
+        "sysctlnametomib": {
+            "offset": "103f0"
         },
         "system": {
             "offset": "a8c0"
