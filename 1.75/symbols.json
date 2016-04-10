@@ -10,6 +10,7 @@
             "offset": "55b0"
         },
         "sceCameraDevStop": {
+            "kernel": true,
             "offset": null
         },
         "sceCameraGetAttribute": {
@@ -34,6 +35,7 @@
             "offset": "5fc0"
         },
         "sceCameraGetDeviceConfig": {
+            "kernel": true,
             "offset": "6dc0"
         },
         "sceCameraGetDeviceInfo": {
@@ -76,6 +78,7 @@
             "offset": "54c0"
         },
         "sceCameraProcConfigStop": {
+            "kernel": true,
             "offset": null
         },
         "sceCameraSetAttribute": {
@@ -138,6 +141,7 @@
     },
     "libSceLibcInternal.sprx": {
         "DELAY": {
+            "kernel": true,
             "offset": null
         },
         "_Exit": {
@@ -231,12 +235,15 @@
             "offset": null
         },
         "__isfinite": {
+            "kernel": true,
             "offset": "551e0"
         },
         "__isfinitef": {
+            "kernel": true,
             "offset": "55200"
         },
         "__isfinitel": {
+            "kernel": true,
             "offset": "55220"
         },
         "__isinff": {
@@ -246,18 +253,23 @@
             "offset": "3feb0"
         },
         "__isnanf": {
+            "kernel": true,
             "offset": "55280"
         },
         "__isnanl": {
+            "kernel": true,
             "offset": "552b0"
         },
         "__isnormal": {
+            "kernel": true,
             "offset": "552f0"
         },
         "__isnormalf": {
+            "kernel": true,
             "offset": "55310"
         },
         "__isnormall": {
+            "kernel": true,
             "offset": "55330"
         },
         "__istype": {
@@ -288,12 +300,15 @@
             "offset": null
         },
         "__signbit": {
+            "kernel": true,
             "offset": "56850"
         },
         "__signbitf": {
+            "kernel": true,
             "offset": "56860"
         },
         "__signbitl": {
+            "kernel": true,
             "offset": "56870"
         },
         "__sigseteq": {
@@ -311,6 +326,36 @@
         "__swbuf": {
             "offset": "1f950"
         },
+        "__sx_slock": {
+            "offset": null
+        },
+        "__sx_sunlock": {
+            "offset": null
+        },
+        "__sx_xlock": {
+            "offset": null
+        },
+        "__sx_xunlock": {
+            "offset": null
+        },
+        "__sysctl_assert_INT": {
+            "offset": null
+        },
+        "__sysctl_assert_INT64": {
+            "offset": null
+        },
+        "__sysctl_assert_LONG": {
+            "offset": null
+        },
+        "__sysctl_assert_UINT": {
+            "offset": null
+        },
+        "__sysctl_assert_UINT64": {
+            "offset": null
+        },
+        "__sysctl_assert_ULONG": {
+            "offset": null
+        },
         "__tolower": {
             "offset": null
         },
@@ -323,13 +368,201 @@
         "__xuname": {
             "offset": null
         },
+        "_callout_init_lock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_callout_stop_safe": {
+            "kernel": true,
+            "offset": null
+        },
+        "_cv_timedwait": {
+            "kernel": true,
+            "offset": null
+        },
+        "_cv_timedwait_sig": {
+            "kernel": true,
+            "offset": null
+        },
+        "_cv_wait": {
+            "kernel": true,
+            "offset": null
+        },
+        "_cv_wait_sig": {
+            "kernel": true,
+            "offset": null
+        },
+        "_cv_wait_unlock": {
+            "kernel": true,
+            "offset": null
+        },
         "_longjmp": {
+            "offset": null
+        },
+        "_mtx_lock_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_lock_sleep": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_lock_spin_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_trylock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_unlock_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_unlock_sleep": {
+            "kernel": true,
+            "offset": null
+        },
+        "_mtx_unlock_spin": {
+            "offset": null
+        },
+        "_mtx_unlock_spin_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_downgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_rlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_runlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_try_rlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_try_upgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_try_wlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_wlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_wlock_hard": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_wunlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_rw_wunlock_hard": {
+            "kernel": true,
             "offset": null
         },
         "_setjmp": {
             "offset": null
         },
         "_sleep": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_downgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_slock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_slock_hard": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_sunlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_sunlock_hard": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_try_slock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_try_upgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_try_xlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_xlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_xlock_hard": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_xunlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_sx_xunlock_hard": {
+            "kernel": true,
+            "offset": null
+        },
+        "_thread_lock_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_lock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_lock_downgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_lock_read": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_lock_upgrade": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_trylock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_trylock_read": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_unlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_unlock_and_wait": {
+            "kernel": true,
+            "offset": null
+        },
+        "_vm_map_unlock_read": {
+            "kernel": true,
             "offset": null
         },
         "a64l": {
@@ -347,6 +580,10 @@
         "acl_add_perm": {
             "offset": null
         },
+        "acl_alloc": {
+            "kernel": true,
+            "offset": null
+        },
         "acl_calc_mask": {
             "offset": null
         },
@@ -356,6 +593,10 @@
         "acl_clear_perms": {
             "offset": null
         },
+        "acl_copy_acl_into_oldacl": {
+            "kernel": true,
+            "offset": null
+        },
         "acl_copy_entry": {
             "offset": null
         },
@@ -363,6 +604,10 @@
             "offset": null
         },
         "acl_copy_int": {
+            "offset": null
+        },
+        "acl_copy_oldacl_into_acl": {
+            "kernel": true,
             "offset": null
         },
         "acl_create_entry": {
@@ -402,6 +647,7 @@
             "offset": null
         },
         "acl_free": {
+            "kernel": true,
             "offset": null
         },
         "acl_from_text": {
@@ -450,6 +696,50 @@
             "offset": null
         },
         "acl_is_trivial_np": {
+            "offset": null
+        },
+        "acl_nfs4_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_nfs4_compute_inherited_acl": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_nfs4_is_trivial": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_nfs4_sync_acl_from_mode": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_nfs4_sync_mode_from_acl": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_acl_to_mode": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_mode_to_entry": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_mode_to_perm": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_newfilemode": {
+            "kernel": true,
+            "offset": null
+        },
+        "acl_posix1e_perms_to_mode": {
+            "kernel": true,
             "offset": null
         },
         "acl_set_entry_type_np": {
@@ -504,33 +794,65 @@
             "offset": null
         },
         "acos": {
+            "kernel": true,
             "offset": "478f0"
         },
         "acosf": {
+            "kernel": true,
             "offset": "47bc0"
         },
         "acosh": {
+            "kernel": true,
             "offset": "47da0"
         },
         "acoshf": {
+            "kernel": true,
             "offset": "47e80"
         },
         "acosl": {
+            "kernel": true,
             "offset": "47f50"
+        },
+        "addrsel_policy_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "addupc_intr": {
+            "kernel": true,
+            "offset": null
+        },
+        "addupc_task": {
+            "kernel": true,
+            "offset": null
         },
         "alarm": {
             "offset": "3ea10"
         },
         "alloc_unr": {
+            "kernel": true,
             "offset": null
         },
         "alloc_unr_specific": {
+            "kernel": true,
             "offset": null
         },
         "alloc_unrl": {
+            "kernel": true,
             "offset": null
         },
         "alphasort": {
+            "offset": null
+        },
+        "altq_attach": {
+            "offset": null
+        },
+        "altq_detach": {
+            "offset": null
+        },
+        "altq_disable": {
+            "offset": null
+        },
+        "altq_enable": {
             "offset": null
         },
         "amd64_get_fsbase": {
@@ -539,13 +861,35 @@
         "amd64_get_gsbase": {
             "offset": null
         },
+        "amd64_get_ioperm": {
+            "kernel": true,
+            "offset": null
+        },
+        "amd64_get_ldt": {
+            "kernel": true,
+            "offset": null
+        },
         "amd64_set_gsbase": {
             "offset": null
         },
+        "amd64_set_ioperm": {
+            "kernel": true,
+            "offset": null
+        },
+        "amd64_set_ldt": {
+            "kernel": true,
+            "offset": null
+        },
+        "amd64_set_ldt_data": {
+            "kernel": true,
+            "offset": null
+        },
         "arc4rand": {
+            "kernel": true,
             "offset": null
         },
         "arc4random": {
+            "kernel": true,
             "offset": null
         },
         "arc4random_addrandom": {
@@ -567,48 +911,65 @@
             "offset": null
         },
         "asin": {
+            "kernel": true,
             "offset": "48290"
         },
         "asinf": {
+            "kernel": true,
             "offset": "484e0"
         },
         "asinh": {
+            "kernel": true,
             "offset": "507c0"
         },
         "asinhf": {
+            "kernel": true,
             "offset": "508a0"
         },
         "asinl": {
+            "kernel": true,
             "offset": "48640"
         },
         "asprintf": {
             "offset": "1fa40"
         },
+        "ast": {
+            "kernel": true,
+            "offset": null
+        },
         "async_daemon": {
             "offset": null
         },
         "atan": {
+            "kernel": true,
             "offset": "50980"
         },
         "atan2": {
+            "kernel": true,
             "offset": "488f0"
         },
         "atan2f": {
+            "kernel": true,
             "offset": "48b80"
         },
         "atan2l": {
+            "kernel": true,
             "offset": "48dd0"
         },
         "atanf": {
+            "kernel": true,
             "offset": "50b70"
         },
         "atanh": {
+            "kernel": true,
             "offset": "490b0"
         },
         "atanhf": {
+            "kernel": true,
             "offset": "491b0"
         },
         "atanl": {
+            "kernel": true,
             "offset": "50d00"
         },
         "atexit": {
@@ -627,75 +988,99 @@
             "offset": "970"
         },
         "atomic_add_barr_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_barr_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_barr_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_barr_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_add_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_barr_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_barr_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_barr_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_barr_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_clear_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_cmpset_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_cmpset_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_fetchadd_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_fetchadd_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_load_acq_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_load_acq_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_load_acq_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_load_acq_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_readandclear_int": {
@@ -705,63 +1090,83 @@
             "offset": null
         },
         "atomic_set_barr_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_barr_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_barr_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_barr_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_set_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_store_rel_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_store_rel_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_store_rel_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_store_rel_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_barr_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_barr_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_barr_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_barr_short": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_char": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_int": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_long": {
+            "kernel": true,
             "offset": null
         },
         "atomic_subtract_short": {
+            "kernel": true,
             "offset": null
         },
         "basename": {
@@ -771,10 +1176,16 @@
             "offset": "3ea80"
         },
         "bcmp": {
+            "kernel": true,
             "offset": "46410"
         },
         "bcopy": {
+            "kernel": true,
             "offset": "46440"
+        },
+        "bintime": {
+            "kernel": true,
+            "offset": null
         },
         "bintime2timespec": {
             "offset": null
@@ -794,6 +1205,10 @@
         "bintime_sub": {
             "offset": null
         },
+        "binuptime": {
+            "kernel": true,
+            "offset": null
+        },
         "bitcount16": {
             "offset": null
         },
@@ -807,6 +1222,7 @@
             "offset": null
         },
         "bsearch": {
+            "kernel": true,
             "offset": "980"
         },
         "bsfl": {
@@ -824,7 +1240,40 @@
         "btowc": {
             "offset": "a10"
         },
+        "buf_ring_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "buf_ring_count": {
+            "offset": null
+        },
+        "buf_ring_dequeue_mc": {
+            "offset": null
+        },
+        "buf_ring_dequeue_sc": {
+            "offset": null
+        },
+        "buf_ring_empty": {
+            "offset": null
+        },
+        "buf_ring_enqueue": {
+            "offset": null
+        },
+        "buf_ring_enqueue_bytes": {
+            "offset": null
+        },
+        "buf_ring_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "buf_ring_full": {
+            "offset": null
+        },
+        "buf_ring_peek": {
+            "offset": null
+        },
         "bzero": {
+            "kernel": true,
             "offset": "464a0"
         },
         "cabs": {
@@ -836,13 +1285,47 @@
         "cabsl": {
             "offset": null
         },
+        "calccru": {
+            "kernel": true,
+            "offset": null
+        },
+        "calcru": {
+            "kernel": true,
+            "offset": null
+        },
         "calculate_crc32c": {
+            "kernel": true,
             "offset": null
         },
         "calloc": {
             "offset": "1fc30"
         },
         "callout_handle_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_reset_on": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_schedule": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_schedule_on": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_tick": {
+            "kernel": true,
+            "offset": null
+        },
+        "callout_tickstofirst": {
+            "kernel": true,
             "offset": null
         },
         "carg": {
@@ -855,9 +1338,11 @@
             "offset": null
         },
         "casuword": {
+            "kernel": true,
             "offset": null
         },
         "casuword32": {
+            "kernel": true,
             "offset": null
         },
         "catclose": {
@@ -870,21 +1355,27 @@
             "offset": null
         },
         "cbrt": {
+            "kernel": true,
             "offset": "50ee0"
         },
         "cbrtf": {
+            "kernel": true,
             "offset": "50ff0"
         },
         "cbrtl": {
+            "kernel": true,
             "offset": "510b0"
         },
         "ceil": {
+            "kernel": true,
             "offset": "51270"
         },
         "ceilf": {
+            "kernel": true,
             "offset": "513a0"
         },
         "ceill": {
+            "kernel": true,
             "offset": "51440"
         },
         "cexp": {
@@ -944,7 +1435,59 @@
         "cgetustr": {
             "offset": null
         },
+        "change_egid": {
+            "kernel": true,
+            "offset": null
+        },
+        "change_euid": {
+            "kernel": true,
+            "offset": null
+        },
+        "change_rgid": {
+            "kernel": true,
+            "offset": null
+        },
+        "change_ruid": {
+            "kernel": true,
+            "offset": null
+        },
+        "change_svgid": {
+            "kernel": true,
+            "offset": null
+        },
+        "change_svuid": {
+            "kernel": true,
+            "offset": null
+        },
         "check_utility_compat": {
+            "offset": null
+        },
+        "chgproccnt": {
+            "kernel": true,
+            "offset": null
+        },
+        "chgptscnt": {
+            "kernel": true,
+            "offset": null
+        },
+        "chgsbsize": {
+            "kernel": true,
+            "offset": null
+        },
+        "childproc_continued": {
+            "kernel": true,
+            "offset": null
+        },
+        "childproc_exited": {
+            "kernel": true,
+            "offset": null
+        },
+        "childproc_stopped": {
+            "kernel": true,
+            "offset": null
+        },
+        "choosethread": {
+            "kernel": true,
             "offset": null
         },
         "cimag": {
@@ -957,9 +1500,14 @@
             "offset": null
         },
         "clean_unrhdr": {
+            "kernel": true,
             "offset": null
         },
         "clean_unrhdrl": {
+            "kernel": true,
+            "offset": null
+        },
+        "clear_pcb_flags": {
             "offset": null
         },
         "clearerr": {
@@ -974,16 +1522,38 @@
         "clock": {
             "offset": "3eb90"
         },
+        "clone_cleanup": {
+            "kernel": true,
+            "offset": null
+        },
+        "clone_create": {
+            "kernel": true,
+            "offset": null
+        },
+        "clone_setup": {
+            "kernel": true,
+            "offset": null
+        },
+        "cloneuio": {
+            "kernel": true,
+            "offset": null
+        },
         "closedir": {
             "offset": "3ec10"
+        },
+        "closef": {
+            "kernel": true,
+            "offset": null
         },
         "closelog": {
             "offset": null
         },
         "config_intrhook_disestablish": {
+            "kernel": true,
             "offset": null
         },
         "config_intrhook_establish": {
+            "kernel": true,
             "offset": null
         },
         "confstr": {
@@ -1001,47 +1571,97 @@
         "consinit": {
             "offset": null
         },
+        "contigfree": {
+            "kernel": true,
+            "offset": null
+        },
+        "contigmalloc": {
+            "kernel": true,
+            "offset": null
+        },
         "copyin": {
+            "kernel": true,
             "offset": null
         },
         "copyin_nofault": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyinfrom": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyiniov": {
+            "kernel": true,
             "offset": null
         },
         "copyinstr": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyinstrfrom": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyinuio": {
+            "kernel": true,
             "offset": null
         },
         "copyout": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyout_map": {
+            "kernel": true,
             "offset": null
         },
         "copyout_nofault": {
+            "kernel": true,
+            "offset": null
+        },
+        "copyout_unmap": {
+            "kernel": true,
             "offset": null
         },
         "copysign": {
+            "kernel": true,
             "offset": "51720"
         },
         "copysignf": {
+            "kernel": true,
             "offset": "51750"
         },
         "copysignl": {
+            "kernel": true,
             "offset": "51770"
         },
         "copystr": {
+            "kernel": true,
             "offset": null
         },
         "cos": {
+            "kernel": true,
             "offset": "517a0"
         },
         "cosf": {
+            "kernel": true,
             "offset": "51b70"
         },
         "cosh": {
+            "kernel": true,
             "offset": "49280"
         },
         "coshf": {
+            "kernel": true,
             "offset": "49390"
         },
         "cosl": {
+            "kernel": true,
             "offset": "51e70"
+        },
+        "count_dev": {
+            "kernel": true,
+            "offset": null
         },
         "cproj": {
             "offset": null
@@ -1053,24 +1673,58 @@
             "offset": null
         },
         "cpu_activeclock": {
+            "kernel": true,
             "offset": null
         },
         "cpu_boot": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_fetch_syscall_args": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_first": {
             "offset": null
         },
         "cpu_flush_dcache": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_fork": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_halt": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_idle": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_idle_wakeup": {
+            "kernel": true,
             "offset": null
         },
         "cpu_idleclock": {
+            "kernel": true,
             "offset": null
         },
         "cpu_initclocks": {
+            "kernel": true,
             "offset": null
         },
         "cpu_initclocks_ap": {
+            "kernel": true,
             "offset": null
         },
         "cpu_initclocks_bsp": {
+            "kernel": true,
             "offset": null
         },
         "cpu_monitor": {
@@ -1079,37 +1733,159 @@
         "cpu_mwait": {
             "offset": null
         },
+        "cpu_next": {
+            "offset": null
+        },
+        "cpu_pcpu_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_reset": {
+            "kernel": true,
+            "offset": null
+        },
         "cpu_rootconf": {
             "offset": null
         },
+        "cpu_set_fork_handler": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_set_syscall_retval": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_set_upcall": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_set_upcall_kse": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_set_user_tls": {
+            "kernel": true,
+            "offset": null
+        },
         "cpu_startprofclock": {
+            "kernel": true,
             "offset": null
         },
         "cpu_stopprofclock": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_switch": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_clean": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_swapin": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_thread_swapout": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpu_throw": {
+            "kernel": true,
             "offset": null
         },
         "cpu_tickrate": {
+            "kernel": true,
             "offset": null
         },
         "cpuid_count": {
             "offset": null
         },
+        "cpuset_create_root": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpuset_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpuset_rel": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpuset_setproc_update_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpuset_setthread": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpuset_thread0": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpusetobj_ffs": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpusetobj_strprint": {
+            "kernel": true,
+            "offset": null
+        },
+        "cpusetobj_strscan": {
+            "kernel": true,
+            "offset": null
+        },
         "cputick2usec": {
+            "kernel": true,
             "offset": null
         },
         "cr_cansee": {
+            "kernel": true,
             "offset": null
         },
         "cr_canseeinpcb": {
+            "kernel": true,
             "offset": null
         },
         "cr_canseesocket": {
+            "kernel": true,
+            "offset": null
+        },
+        "cr_cansignal": {
+            "kernel": true,
             "offset": null
         },
         "crc32": {
             "offset": null
         },
         "crc32_raw": {
+            "offset": null
+        },
+        "crcopy": {
+            "kernel": true,
+            "offset": null
+        },
+        "crcopysafe": {
+            "kernel": true,
+            "offset": null
+        },
+        "crdup": {
+            "kernel": true,
             "offset": null
         },
         "creal": {
@@ -1121,10 +1897,40 @@
         "creall": {
             "offset": null
         },
+        "cred_update_thread": {
+            "kernel": true,
+            "offset": null
+        },
+        "crfree": {
+            "kernel": true,
+            "offset": null
+        },
+        "crget": {
+            "kernel": true,
+            "offset": null
+        },
+        "crhold": {
+            "kernel": true,
+            "offset": null
+        },
         "critical_enter": {
+            "kernel": true,
             "offset": null
         },
         "critical_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "crsetgroups": {
+            "kernel": true,
+            "offset": null
+        },
+        "crshared": {
+            "kernel": true,
+            "offset": null
+        },
+        "cru2x": {
+            "kernel": true,
             "offset": null
         },
         "crypt": {
@@ -1157,8 +1963,37 @@
         "ctime_r": {
             "offset": null
         },
+        "cursig": {
+            "kernel": true,
+            "offset": null
+        },
+        "curthread_pflags_restore": {
+            "offset": null
+        },
+        "curthread_pflags_set": {
+            "offset": null
+        },
+        "cv_broadcastpri": {
+            "kernel": true,
+            "offset": null
+        },
+        "cv_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "cv_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "cv_signal": {
+            "kernel": true,
+            "offset": null
+        },
         "daemon": {
             "offset": "3eca0"
+        },
+        "db_show_mdpcpu": {
+            "offset": null
         },
         "dbm_clearerr": {
             "offset": null
@@ -1197,6 +2032,7 @@
             "offset": null
         },
         "delete_unrhdr": {
+            "kernel": true,
             "offset": null
         },
         "des_cipher": {
@@ -1205,7 +2041,88 @@
         "des_setkey": {
             "offset": null
         },
+        "destroy_dev": {
+            "kernel": true,
+            "offset": null
+        },
+        "destroy_dev_drain": {
+            "kernel": true,
+            "offset": null
+        },
+        "destroy_dev_sched": {
+            "kernel": true,
+            "offset": null
+        },
+        "destroy_dev_sched_cb": {
+            "kernel": true,
+            "offset": null
+        },
         "dev2udev": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_depends": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_lock": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_refl": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_refthread": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_rel": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_relthread": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_stdclone": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_strategy": {
+            "kernel": true,
+            "offset": null
+        },
+        "dev_unlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_alloc_cdp_inode": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_clear_cdevpriv": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_fpdrop": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_free_cdp_inode": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_get_cdevpriv": {
+            "kernel": true,
+            "offset": null
+        },
+        "devfs_set_cdevpriv": {
+            "kernel": true,
             "offset": null
         },
         "devname": {
@@ -1215,6 +2132,11 @@
             "offset": "3ede0"
         },
         "devtoname": {
+            "kernel": true,
+            "offset": null
+        },
+        "devvn_refthread": {
+            "kernel": true,
             "offset": null
         },
         "difftime": {
@@ -1250,19 +2172,120 @@
         "do_cpuid": {
             "offset": null
         },
+        "do_getopt_accept_filter": {
+            "kernel": true,
+            "offset": null
+        },
+        "do_setopt_accept_filter": {
+            "kernel": true,
+            "offset": null
+        },
+        "doadump": {
+            "kernel": true,
+            "offset": null
+        },
+        "dpcpu_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "dpcpu_copy": {
+            "kernel": true,
+            "offset": null
+        },
+        "dpcpu_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "dpcpu_init": {
+            "kernel": true,
+            "offset": null
+        },
         "dprintf": {
+            "offset": null
+        },
+        "drain_dev_clone_events": {
+            "kernel": true,
             "offset": null
         },
         "drand48": {
             "offset": "67c0"
         },
+        "drbr_dequeue": {
+            "offset": null
+        },
+        "drbr_dequeue_cond": {
+            "offset": null
+        },
+        "drbr_empty": {
+            "offset": null
+        },
+        "drbr_enqueue": {
+            "offset": null
+        },
+        "drbr_flush": {
+            "offset": null
+        },
+        "drbr_free": {
+            "offset": null
+        },
+        "drbr_inuse": {
+            "offset": null
+        },
+        "drbr_needs_enqueue": {
+            "offset": null
+        },
+        "drbr_stats_update": {
+            "offset": null
+        },
         "drem": {
+            "kernel": true,
             "offset": "58120"
         },
         "dremf": {
+            "kernel": true,
             "offset": "58130"
         },
+        "dump_write": {
+            "kernel": true,
+            "offset": null
+        },
         "dumpstatus": {
+            "offset": null
+        },
+        "dumpsys": {
+            "kernel": true,
+            "offset": null
+        },
+        "dupfdopen": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_cpu_load_file": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_cpu_unload_file": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_get_sym": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_get_symname": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_reloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_reloc_local": {
+            "kernel": true,
+            "offset": null
+        },
+        "elf_relocaddr": {
+            "kernel": true,
             "offset": null
         },
         "enable_intr": {
@@ -1298,22 +2321,35 @@
         "endutxent": {
             "offset": null
         },
+        "enterpgrp": {
+            "kernel": true,
+            "offset": null
+        },
+        "enterthispgrp": {
+            "kernel": true,
+            "offset": null
+        },
         "eopnotsupp": {
+            "kernel": true,
             "offset": null
         },
         "erand48": {
             "offset": "6800"
         },
         "erf": {
+            "kernel": true,
             "offset": "521b0"
         },
         "erfc": {
+            "kernel": true,
             "offset": "525f0"
         },
         "erfcf": {
+            "kernel": true,
             "offset": "52e70"
         },
         "erff": {
+            "kernel": true,
             "offset": "52a40"
         },
         "err": {
@@ -1332,15 +2368,23 @@
             "offset": "3f260"
         },
         "eventhandler_deregister": {
+            "kernel": true,
             "offset": null
         },
         "eventhandler_find_list": {
+            "kernel": true,
             "offset": null
         },
         "eventhandler_prune_list": {
+            "kernel": true,
             "offset": null
         },
         "eventhandler_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "exec_sysvec_init": {
+            "kernel": true,
             "offset": null
         },
         "execl": {
@@ -1350,6 +2394,10 @@
             "offset": null
         },
         "execlp": {
+            "offset": null
+        },
+        "execsigs": {
+            "kernel": true,
             "offset": null
         },
         "exect": {
@@ -1362,35 +2410,61 @@
             "offset": "428a0",
             "syscall": "1"
         },
+        "exit1": {
+            "kernel": true,
+            "offset": null
+        },
         "exp": {
+            "kernel": true,
             "offset": "49490"
         },
         "exp2": {
+            "kernel": true,
             "offset": "532b0"
         },
         "exp2f": {
+            "kernel": true,
             "offset": "53440"
         },
         "exp2l": {
+            "kernel": true,
             "offset": "47760"
         },
         "expf": {
+            "kernel": true,
             "offset": "496b0"
         },
         "expm1": {
+            "kernel": true,
             "offset": "53590"
         },
         "expm1f": {
+            "kernel": true,
             "offset": "53860"
         },
         "fabs": {
+            "kernel": true,
             "offset": "2c690"
         },
         "fabsf": {
+            "kernel": true,
             "offset": "53b00"
         },
         "fabsl": {
+            "kernel": true,
             "offset": "53b10"
+        },
+        "falloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "falloc_noinstall": {
+            "kernel": true,
+            "offset": null
+        },
+        "faultin": {
+            "kernel": true,
+            "offset": null
         },
         "fclose": {
             "offset": "6ac0"
@@ -1398,26 +2472,69 @@
         "fcloseall": {
             "offset": "69b0"
         },
+        "fdalloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdavail": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdcheckstd": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdclose": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdcloseexec": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdcopy": {
+            "kernel": true,
+            "offset": null
+        },
         "fdevname": {
             "offset": null
         },
         "fdevname_r": {
             "offset": null
         },
+        "fdfree": {
+            "kernel": true,
+            "offset": null
+        },
         "fdim": {
+            "kernel": true,
             "offset": "53b30"
         },
         "fdimf": {
+            "kernel": true,
             "offset": "53b90"
         },
         "fdiml": {
+            "kernel": true,
             "offset": "53bf0"
+        },
+        "fdinit": {
+            "kernel": true,
+            "offset": null
         },
         "fdopen": {
             "offset": "6b80"
         },
         "fdopendir": {
             "offset": "40040"
+        },
+        "fdshare": {
+            "kernel": true,
+            "offset": null
+        },
+        "fdunshare": {
+            "kernel": true,
+            "offset": null
         },
         "feature_present": {
             "offset": null
@@ -1426,12 +2543,15 @@
             "offset": "46900"
         },
         "fedisableexcept": {
+            "kernel": true,
             "offset": "46c90"
         },
         "feenableexcept": {
+            "kernel": true,
             "offset": "46c20"
         },
         "fegetenv": {
+            "kernel": true,
             "offset": "46b40"
         },
         "fegetexcept": {
@@ -1444,6 +2564,7 @@
             "offset": "46a90"
         },
         "feholdexcept": {
+            "kernel": true,
             "offset": "46b50"
         },
         "feof": {
@@ -1453,6 +2574,7 @@
             "offset": "6c50"
         },
         "feraiseexcept": {
+            "kernel": true,
             "offset": "469f0"
         },
         "ferror": {
@@ -1465,6 +2587,7 @@
             "offset": "46ba0"
         },
         "fesetexceptflag": {
+            "kernel": true,
             "offset": "46990"
         },
         "fesetround": {
@@ -1474,6 +2597,7 @@
             "offset": "46a50"
         },
         "feupdateenv": {
+            "kernel": true,
             "offset": "46bb0"
         },
         "fflagstostr": {
@@ -1491,6 +2615,13 @@
         "ffsll": {
             "offset": null
         },
+        "fget_locked": {
+            "offset": null
+        },
+        "fget_unlocked": {
+            "kernel": true,
+            "offset": null
+        },
         "fgetc": {
             "offset": "6f20"
         },
@@ -1498,6 +2629,7 @@
             "offset": "1f960"
         },
         "fgetown": {
+            "kernel": true,
             "offset": null
         },
         "fgetpos": {
@@ -1515,31 +2647,65 @@
         "fgetws": {
             "offset": "7490"
         },
+        "filedesc_to_leader_alloc": {
+            "kernel": true,
+            "offset": null
+        },
         "fileno": {
             "offset": "7510"
         },
         "fileno_unlocked": {
             "offset": "7510"
         },
+        "fill_dbregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "fill_fpregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "fill_frame_regs": {
+            "kernel": true,
+            "offset": null
+        },
         "fill_kinfo_proc": {
+            "kernel": true,
+            "offset": null
+        },
+        "fill_regs": {
+            "kernel": true,
             "offset": null
         },
         "finite": {
+            "kernel": true,
             "offset": "53c60"
         },
         "finitef": {
+            "kernel": true,
             "offset": "53c80"
+        },
+        "finstall": {
+            "kernel": true,
+            "offset": null
+        },
+        "fixjobc": {
+            "kernel": true,
+            "offset": null
         },
         "flockfile": {
             "offset": "6c70"
         },
         "floor": {
+            "kernel": true,
             "offset": "53ca0"
         },
         "floorf": {
+            "kernel": true,
             "offset": "53dd0"
         },
         "floorl": {
+            "kernel": true,
             "offset": "53e70"
         },
         "fls": {
@@ -1552,39 +2718,51 @@
             "offset": null
         },
         "fma": {
+            "kernel": true,
             "offset": "54150"
         },
         "fmaf": {
+            "kernel": true,
             "offset": "54610"
         },
         "fmal": {
+            "kernel": true,
             "offset": "54630"
         },
         "fmax": {
+            "kernel": true,
             "offset": "54b00"
         },
         "fmaxf": {
+            "kernel": true,
             "offset": "54bb0"
         },
         "fmaxl": {
+            "kernel": true,
             "offset": "54c50"
         },
         "fmin": {
+            "kernel": true,
             "offset": "54cf0"
         },
         "fminf": {
+            "kernel": true,
             "offset": "54da0"
         },
         "fminl": {
+            "kernel": true,
             "offset": "54e40"
         },
         "fmod": {
+            "kernel": true,
             "offset": "49890"
         },
         "fmodf": {
+            "kernel": true,
             "offset": "49b60"
         },
         "fmodl": {
+            "kernel": true,
             "offset": "49d00"
         },
         "fmtcheck": {
@@ -1594,19 +2772,80 @@
             "offset": null
         },
         "fnmatch": {
+            "kernel": true,
             "offset": null
         },
         "fopen": {
             "offset": "7530"
         },
+        "fork1": {
+            "kernel": true,
+            "offset": null
+        },
+        "fork_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "fork_return": {
+            "kernel": true,
+            "offset": null
+        },
+        "fork_trampoline": {
+            "kernel": true,
+            "offset": null
+        },
         "fprintf": {
             "offset": "7580"
+        },
+        "fpu_kern_enter": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpu_kern_leave": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpu_kern_thread": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpudna": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpudrop": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpuexit": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpuformat": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpugetregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "fpuinit": {
+            "kernel": true,
+            "offset": null
         },
         "fpurge": {
             "offset": "6ee0"
         },
+        "fpusetregs": {
+            "kernel": true,
+            "offset": null
+        },
         "fputc": {
             "offset": "76a0"
+        },
+        "fputrap": {
+            "kernel": true,
+            "offset": null
         },
         "fputs": {
             "offset": "7810"
@@ -1617,19 +2856,26 @@
         "fputws": {
             "offset": "7a90"
         },
+        "fpuuserinited": {
+            "kernel": true,
+            "offset": null
+        },
         "fread": {
             "offset": "7af0"
         },
         "free": {
+            "kernel": true,
             "offset": "1fba0"
         },
         "free_unr": {
+            "kernel": true,
             "offset": null
         },
         "freeaddrinfo": {
             "offset": null
         },
         "freeenv": {
+            "kernel": true,
             "offset": null
         },
         "freehostent": {
@@ -1639,12 +2885,15 @@
             "offset": "7c50"
         },
         "frexp": {
+            "kernel": true,
             "offset": "54ee0"
         },
         "frexpf": {
+            "kernel": true,
             "offset": "54f70"
         },
         "frexpl": {
+            "kernel": true,
             "offset": "54fd0"
         },
         "fscanf": {
@@ -1657,6 +2906,7 @@
             "offset": "7e40"
         },
         "fsetown": {
+            "kernel": true,
             "offset": null
         },
         "fsetpos": {
@@ -1681,6 +2931,7 @@
             "offset": null
         },
         "fubyte": {
+            "kernel": true,
             "offset": null
         },
         "funlockfile": {
@@ -1690,21 +2941,31 @@
             "offset": null
         },
         "funsetown": {
+            "kernel": true,
             "offset": null
         },
         "funsetownlst": {
+            "kernel": true,
+            "offset": null
+        },
+        "fuswintr": {
+            "kernel": true,
             "offset": null
         },
         "fuword": {
+            "kernel": true,
             "offset": null
         },
         "fuword16": {
+            "kernel": true,
             "offset": null
         },
         "fuword32": {
+            "kernel": true,
             "offset": null
         },
         "fuword64": {
+            "kernel": true,
             "offset": null
         },
         "fwide": {
@@ -1720,24 +2981,44 @@
             "offset": "8280"
         },
         "g_waitidle": {
+            "kernel": true,
             "offset": null
         },
         "gai_strerror": {
             "offset": null
         },
         "gamma": {
+            "kernel": true,
             "offset": "49f80"
         },
         "gamma_r": {
+            "kernel": true,
             "offset": "49fb0"
         },
         "gammaf": {
+            "kernel": true,
             "offset": "49f90"
         },
         "gammaf_r": {
+            "kernel": true,
             "offset": "49fa0"
         },
+        "get_cyclecount": {
+            "offset": null
+        },
+        "get_mcontext": {
+            "kernel": true,
+            "offset": null
+        },
         "getaddrinfo": {
+            "offset": null
+        },
+        "getbintime": {
+            "kernel": true,
+            "offset": null
+        },
+        "getbinuptime": {
+            "kernel": true,
             "offset": null
         },
         "getbsize": {
@@ -1755,6 +3036,22 @@
         "getchar_unlocked": {
             "offset": "7030"
         },
+        "getcreddomainname": {
+            "kernel": true,
+            "offset": null
+        },
+        "getcredhostid": {
+            "kernel": true,
+            "offset": null
+        },
+        "getcredhostname": {
+            "kernel": true,
+            "offset": null
+        },
+        "getcredhostuuid": {
+            "kernel": true,
+            "offset": null
+        },
         "getcwd": {
             "offset": "3f780"
         },
@@ -1765,24 +3062,31 @@
             "offset": null
         },
         "getenv": {
+            "kernel": true,
             "offset": "42a70"
         },
         "getenv_int": {
+            "kernel": true,
             "offset": null
         },
         "getenv_long": {
+            "kernel": true,
             "offset": null
         },
         "getenv_quad": {
+            "kernel": true,
             "offset": null
         },
         "getenv_string": {
+            "kernel": true,
             "offset": null
         },
         "getenv_uint": {
+            "kernel": true,
             "offset": null
         },
         "getenv_ulong": {
+            "kernel": true,
             "offset": null
         },
         "getgrent": {
@@ -1851,10 +3155,26 @@
         "getloadavg": {
             "offset": null
         },
+        "getmicrotime": {
+            "kernel": true,
+            "offset": null
+        },
+        "getmicrouptime": {
+            "kernel": true,
+            "offset": null
+        },
         "getmode": {
             "offset": null
         },
         "getnameinfo": {
+            "offset": null
+        },
+        "getnanotime": {
+            "kernel": true,
+            "offset": null
+        },
+        "getnanouptime": {
+            "kernel": true,
             "offset": null
         },
         "getnetbyaddr": {
@@ -1933,6 +3253,7 @@
             "offset": null
         },
         "gets": {
+            "kernel": true,
             "offset": "83b0"
         },
         "getservbyname": {
@@ -1974,6 +3295,10 @@
         "getutxuser": {
             "offset": null
         },
+        "getvnode": {
+            "kernel": true,
+            "offset": null
+        },
         "getw": {
             "offset": "8530"
         },
@@ -2004,31 +3329,47 @@
         "group_from_gid": {
             "offset": null
         },
+        "groupmember": {
+            "kernel": true,
+            "offset": null
+        },
+        "gsignal": {
+            "kernel": true,
+            "offset": null
+        },
         "halt": {
             "offset": null
         },
         "hardclock": {
+            "kernel": true,
             "offset": null
         },
         "hardclock_anycpu": {
+            "kernel": true,
             "offset": null
         },
         "hardclock_cpu": {
+            "kernel": true,
             "offset": null
         },
         "hardclock_sync": {
+            "kernel": true,
             "offset": null
         },
         "hardclockintr": {
+            "kernel": true,
             "offset": null
         },
         "hashdestroy": {
+            "kernel": true,
             "offset": null
         },
         "hashinit": {
+            "kernel": true,
             "offset": null
         },
         "hashinit_flags": {
+            "kernel": true,
             "offset": null
         },
         "hcreate": {
@@ -2044,6 +3385,7 @@
             "offset": null
         },
         "hexdump": {
+            "kernel": true,
             "offset": null
         },
         "hsearch": {
@@ -2053,24 +3395,269 @@
             "offset": null
         },
         "hypot": {
+            "kernel": true,
             "offset": "49fc0"
         },
         "hypotf": {
+            "kernel": true,
             "offset": "4a1d0"
         },
         "hypotl": {
+            "kernel": true,
             "offset": "4a360"
         },
         "ia32_pause": {
             "offset": null
         },
+        "if_addgroup": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_addmulti": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_addr_rlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_addr_runlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_allmulti": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_attach": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_dead": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_delallmulti": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_delgroup": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_delmulti": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_delmulti_ifma": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_deregister_com_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_detach": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_down": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_findmulti": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_free_type": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_freenameindex": {
+            "offset": null
+        },
+        "if_handoff": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_indextoname": {
+            "offset": null
+        },
+        "if_initname": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_link_state_change": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_maddr_rlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_maddr_runlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_nameindex": {
+            "offset": null
+        },
+        "if_nametoindex": {
+            "offset": null
+        },
+        "if_printf": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_purgeaddrs": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_qflush": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_register_com_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_rele": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_setlladdr": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_simloop": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_start": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_up": {
+            "kernel": true,
+            "offset": null
+        },
+        "if_vmove": {
+            "offset": null
+        },
+        "ifa_add_loopback_route": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_del_loopback_route": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithaddr_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithbroadaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithdstaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithnet": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithroute": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ifwithroute_fib": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifa_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifaddr_byindex": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifaof_ifpforaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifioctl": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifnet_byindex": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifnet_byindex_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifnet_byindex_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifpromisc": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifq_delete": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifq_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifunit": {
+            "kernel": true,
+            "offset": null
+        },
+        "ifunit_ref": {
+            "kernel": true,
+            "offset": null
+        },
         "ilogb": {
+            "kernel": true,
             "offset": "55070"
         },
         "ilogbf": {
+            "kernel": true,
             "offset": "550e0"
         },
         "ilogbl": {
+            "kernel": true,
             "offset": "55130"
         },
         "imax": {
@@ -2085,10 +3672,71 @@
         "imin": {
             "offset": null
         },
+        "in6_addrscope": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_cksum": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_if_up": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_ifawithifp": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_localaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_localip": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_sin6_2_sin": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_sin6_2_sin_in_sock": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_sin_2_v4mapsin6": {
+            "kernel": true,
+            "offset": null
+        },
+        "in6_sin_2_v4mapsin6_in_sock": {
+            "kernel": true,
+            "offset": null
+        },
+        "in_broadcast": {
+            "kernel": true,
+            "offset": null
+        },
+        "in_canforward": {
+            "kernel": true,
+            "offset": null
+        },
+        "in_ifdetach": {
+            "kernel": true,
+            "offset": null
+        },
+        "in_localaddr": {
+            "kernel": true,
+            "offset": null
+        },
+        "in_localip": {
+            "kernel": true,
+            "offset": null
+        },
         "inb": {
             "offset": null
         },
         "index": {
+            "kernel": true,
             "offset": "45d80"
         },
         "inet6_opt_append": {
@@ -2169,13 +3817,32 @@
         "inet6_rthdr_space": {
             "offset": null
         },
+        "inet_aton": {
+            "kernel": true,
+            "offset": "418a0"
+        },
+        "inet_ntoa": {
+            "kernel": true,
+            "offset": "41b30"
+        },
+        "inet_ntoa_r": {
+            "kernel": true,
+            "offset": "41bb0"
+        },
+        "inferior": {
+            "kernel": true,
+            "offset": null
+        },
         "init_param1": {
+            "kernel": true,
             "offset": null
         },
         "init_param2": {
+            "kernel": true,
             "offset": null
         },
         "init_static_kenv": {
+            "kernel": true,
             "offset": null
         },
         "initgroups": {
@@ -2183,6 +3850,10 @@
         },
         "initstate": {
             "offset": "45590"
+        },
+        "inittodr": {
+            "kernel": true,
+            "offset": null
         },
         "inl": {
             "offset": null
@@ -2220,10 +3891,18 @@
         "inw": {
             "offset": null
         },
+        "ipcperm": {
+            "kernel": true,
+            "offset": null
+        },
         "iruserok": {
             "offset": null
         },
         "iruserok_sa": {
+            "offset": null
+        },
+        "is_fpu_kern_thread": {
+            "kernel": true,
             "offset": null
         },
         "isalnum": {
@@ -2266,6 +3945,7 @@
             "offset": "55240"
         },
         "isnanf": {
+            "kernel": true,
             "offset": "55280"
         },
         "isnumber": {
@@ -2355,166 +4035,380 @@
         "isxdigit": {
             "offset": "8850"
         },
+        "itimerdecr": {
+            "kernel": true,
+            "offset": null
+        },
+        "itimerfix": {
+            "kernel": true,
+            "offset": null
+        },
         "j0": {
+            "kernel": true,
             "offset": "4a620"
         },
         "j0f": {
+            "kernel": true,
             "offset": "4acd0"
         },
         "j1": {
+            "kernel": true,
             "offset": "4b420"
         },
         "j1f": {
+            "kernel": true,
             "offset": "4bab0"
         },
+        "jailed": {
+            "kernel": true,
+            "offset": null
+        },
+        "jailed_without_vnet": {
+            "kernel": true,
+            "offset": null
+        },
         "jn": {
+            "kernel": true,
             "offset": "4c1c0"
         },
         "jnf": {
+            "kernel": true,
             "offset": "4c840"
         },
         "jrand48": {
             "offset": "6930"
         },
         "kdb_alt_break": {
+            "kernel": true,
             "offset": null
         },
         "kdb_alt_break_gdb": {
+            "kernel": true,
             "offset": null
         },
         "kdb_backtrace": {
+            "kernel": true,
             "offset": null
         },
         "kdb_break": {
+            "kernel": true,
             "offset": null
         },
         "kdb_dbbe_select": {
+            "kernel": true,
             "offset": null
         },
         "kdb_enter": {
+            "kernel": true,
             "offset": null
         },
         "kdb_init": {
+            "kernel": true,
             "offset": null
         },
         "kdb_jmpbuf": {
+            "kernel": true,
             "offset": null
         },
         "kdb_panic": {
+            "kernel": true,
             "offset": null
         },
         "kdb_reboot": {
+            "kernel": true,
             "offset": null
         },
         "kdb_reenter": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_ctx": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_first": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_from_pid": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_lookup": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_next": {
+            "kernel": true,
             "offset": null
         },
         "kdb_thr_select": {
+            "kernel": true,
             "offset": null
         },
         "kdb_trap": {
+            "kernel": true,
+            "offset": null
+        },
+        "kern_psignal": {
+            "kernel": true,
             "offset": null
         },
         "kern_reboot": {
+            "kernel": true,
             "offset": null
         },
         "kern_timeout_callwheel_alloc": {
+            "kernel": true,
             "offset": null
         },
         "kern_timeout_callwheel_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "kern_yield": {
+            "kernel": true,
+            "offset": null
+        },
+        "kernacc": {
+            "kernel": true,
+            "offset": null
+        },
+        "kernel_sysctl": {
+            "kernel": true,
+            "offset": null
+        },
+        "kernel_sysctlbyname": {
+            "kernel": true,
+            "offset": null
+        },
+        "kick_proc0": {
+            "kernel": true,
             "offset": null
         },
         "killpg": {
             "offset": null
         },
+        "killproc": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc_attr": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc_contig": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc_nofault": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc_nofault_space": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_alloc_wait": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_back": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_free_wakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_malloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "kmem_suballoc": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_add": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_cleardel": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_empty": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_init_mtx": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_remove": {
+            "kernel": true,
+            "offset": null
+        },
+        "knlist_remove_inevent": {
+            "kernel": true,
+            "offset": null
+        },
+        "knote": {
+            "kernel": true,
+            "offset": null
+        },
+        "knote_fdclose": {
+            "kernel": true,
+            "offset": null
+        },
+        "knote_fork": {
+            "kernel": true,
+            "offset": null
+        },
         "kobj_class_compile": {
+            "kernel": true,
             "offset": null
         },
         "kobj_class_compile_static": {
+            "kernel": true,
             "offset": null
         },
         "kobj_class_free": {
+            "kernel": true,
             "offset": null
         },
         "kobj_create": {
+            "kernel": true,
             "offset": null
         },
         "kobj_delete": {
+            "kernel": true,
             "offset": null
         },
         "kobj_error_method": {
+            "kernel": true,
             "offset": null
         },
         "kobj_init": {
+            "kernel": true,
             "offset": null
         },
         "kobj_init_static": {
+            "kernel": true,
             "offset": null
         },
         "kobj_lookup_method": {
+            "kernel": true,
             "offset": null
         },
         "kproc_create": {
+            "kernel": true,
             "offset": null
         },
         "kproc_exit": {
+            "kernel": true,
             "offset": null
         },
         "kproc_kthread_add": {
+            "kernel": true,
             "offset": null
         },
         "kproc_resume": {
+            "kernel": true,
             "offset": null
         },
         "kproc_shutdown": {
+            "kernel": true,
             "offset": null
         },
         "kproc_start": {
+            "kernel": true,
             "offset": null
         },
         "kproc_suspend": {
+            "kernel": true,
             "offset": null
         },
         "kproc_suspend_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "kqfd_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "kqueue_add_filteropts": {
+            "kernel": true,
+            "offset": null
+        },
+        "kqueue_del_filteropts": {
+            "kernel": true,
+            "offset": null
+        },
+        "ksiginfo_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "ksiginfo_copy": {
+            "offset": null
+        },
+        "ksiginfo_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "ksiginfo_set_sigev": {
             "offset": null
         },
         "kthread_add": {
+            "kernel": true,
             "offset": null
         },
         "kthread_exit": {
+            "kernel": true,
             "offset": null
         },
         "kthread_resume": {
+            "kernel": true,
             "offset": null
         },
         "kthread_shutdown": {
+            "kernel": true,
             "offset": null
         },
         "kthread_start": {
+            "kernel": true,
             "offset": null
         },
         "kthread_suspend": {
+            "kernel": true,
             "offset": null
         },
         "kthread_suspend_check": {
+            "kernel": true,
             "offset": null
         },
         "kvprintf": {
+            "kernel": true,
             "offset": null
         },
         "l64a": {
@@ -2530,33 +4424,155 @@
             "offset": "66d0"
         },
         "ldexp": {
+            "kernel": true,
             "offset": "2c700"
         },
         "ldexpf": {
+            "kernel": true,
             "offset": "58460"
         },
         "ldexpl": {
+            "kernel": true,
             "offset": "58490"
         },
         "ldiv": {
             "offset": "463f0"
         },
+        "leavepgrp": {
+            "kernel": true,
+            "offset": null
+        },
         "lfind": {
             "offset": null
         },
         "lgamma": {
+            "kernel": true,
             "offset": "4ccc0"
         },
         "lgamma_r": {
+            "kernel": true,
             "offset": "4d430"
         },
         "lgammaf": {
+            "kernel": true,
             "offset": "4ccd0"
         },
         "lgammaf_r": {
+            "kernel": true,
             "offset": "4cce0"
         },
+        "lgdt": {
+            "kernel": true,
+            "offset": null
+        },
         "lidt": {
+            "offset": null
+        },
+        "lim_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_copy": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_cur": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_fork": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_max": {
+            "kernel": true,
+            "offset": null
+        },
+        "lim_rlimit": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_add_class": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_ctf_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_ddb_lookup": {
+            "offset": null
+        },
+        "linker_ddb_search_symbol": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_ddb_search_symbol_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_ddb_symbol_values": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_file_foreach": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_file_function_listall": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_file_lookup_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_file_lookup_symbol": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_file_unload": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_hwpmc_list_objects": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_load_dependencies": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_make_file": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_reference_module": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_release_module": {
+            "kernel": true,
+            "offset": null
+        },
+        "linker_search_symbol_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "lkmnosys": {
+            "kernel": true,
+            "offset": null
+        },
+        "lkmressys": {
+            "kernel": true,
             "offset": null
         },
         "llabs": {
@@ -2569,21 +4585,27 @@
             "offset": null
         },
         "llrint": {
+            "kernel": true,
             "offset": "582a0"
         },
         "llrintf": {
+            "kernel": true,
             "offset": "582b0"
         },
         "llrintl": {
+            "kernel": true,
             "offset": "582c0"
         },
         "llround": {
+            "kernel": true,
             "offset": "55350"
         },
         "llroundf": {
+            "kernel": true,
             "offset": "55360"
         },
         "llroundl": {
+            "kernel": true,
             "offset": "55370"
         },
         "lmax": {
@@ -2649,46 +4671,71 @@
         "locc": {
             "offset": null
         },
+        "lock_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "lock_init": {
+            "kernel": true,
+            "offset": null
+        },
         "lockf": {
             "offset": null
         },
+        "lockstat_nsecs": {
+            "kernel": true,
+            "offset": null
+        },
         "log": {
+            "kernel": true,
             "offset": "4dbb0"
         },
         "log10": {
+            "kernel": true,
             "offset": "4de40"
         },
         "log10f": {
+            "kernel": true,
             "offset": "4e050"
         },
         "log1p": {
+            "kernel": true,
             "offset": "55390"
         },
         "log1pf": {
+            "kernel": true,
             "offset": "55670"
         },
         "log2": {
+            "kernel": true,
             "offset": "4e210"
         },
         "log2f": {
+            "kernel": true,
             "offset": "4e410"
         },
         "log_console": {
+            "kernel": true,
             "offset": null
         },
         "logb": {
+            "kernel": true,
             "offset": "55930"
         },
         "logbf": {
+            "kernel": true,
             "offset": "559a0"
         },
         "logbl": {
+            "kernel": true,
             "offset": "582d0"
         },
         "logf": {
+            "kernel": true,
             "offset": "4e5d0"
         },
         "longjmp": {
+            "kernel": true,
             "offset": "46370"
         },
         "longjmperror": {
@@ -2698,21 +4745,27 @@
             "offset": "6860"
         },
         "lrint": {
+            "kernel": true,
             "offset": "582e0"
         },
         "lrintf": {
+            "kernel": true,
             "offset": "582f0"
         },
         "lrintl": {
+            "kernel": true,
             "offset": "58300"
         },
         "lround": {
+            "kernel": true,
             "offset": "55a00"
         },
         "lroundf": {
+            "kernel": true,
             "offset": "55a10"
         },
         "lroundl": {
+            "kernel": true,
             "offset": "55a20"
         },
         "lsearch": {
@@ -2721,13 +4774,335 @@
         "ltr": {
             "offset": null
         },
+        "m_addr_changed": {
+            "offset": null
+        },
+        "m_adj": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_align": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_append": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_apply": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_cat": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_chtype": {
+            "offset": null
+        },
+        "m_clget": {
+            "offset": null
+        },
+        "m_cljget": {
+            "offset": null
+        },
+        "m_cljset": {
+            "offset": null
+        },
+        "m_collapse": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copy_pkthdr": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copyback": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copydata": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copym": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copymdata": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copypacket": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_copyup": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_defrag": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_demote": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_devget": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_dup": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_dup_pkthdr": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_extadd": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_fixhdr": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_fragment": {
+            "offset": null
+        },
+        "m_free": {
+            "offset": null
+        },
+        "m_free_fast": {
+            "offset": null
+        },
+        "m_freem": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_get": {
+            "offset": null
+        },
+        "m_getcl": {
+            "offset": null
+        },
+        "m_getclr": {
+            "offset": null
+        },
+        "m_gethdr": {
+            "offset": null
+        },
+        "m_getjcl": {
+            "offset": null
+        },
+        "m_getm2": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_getptr": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_gettype": {
+            "offset": null
+        },
+        "m_getzone": {
+            "offset": null
+        },
+        "m_init": {
+            "offset": null
+        },
+        "m_last": {
+            "offset": null
+        },
+        "m_length": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_mbuftouio": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_move_pkthdr": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_pkthdr_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_prepend": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_print": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_pulldown": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_pullup": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_sanity": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_split": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_copy": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_copy_chain": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_delete": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_delete_chain": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_delete_nonpersistent": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_find": {
+            "offset": null
+        },
+        "m_tag_first": {
+            "offset": null
+        },
+        "m_tag_free": {
+            "offset": null
+        },
+        "m_tag_free_default": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_get": {
+            "offset": null
+        },
+        "m_tag_init": {
+            "offset": null
+        },
+        "m_tag_locate": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_tag_next": {
+            "offset": null
+        },
+        "m_tag_prepend": {
+            "offset": null
+        },
+        "m_tag_setup": {
+            "offset": null
+        },
+        "m_tag_unlink": {
+            "offset": null
+        },
+        "m_uiotombuf": {
+            "kernel": true,
+            "offset": null
+        },
+        "m_unshare": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_alias": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_alias_p": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_cred": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_credf": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_p": {
+            "kernel": true,
+            "offset": null
+        },
+        "make_dev_physpath_alias": {
+            "kernel": true,
+            "offset": null
+        },
         "makecontext": {
             "offset": "3e210"
         },
+        "makectx": {
+            "kernel": true,
+            "offset": null
+        },
         "malloc": {
+            "kernel": true,
             "offset": "1fb10"
         },
+        "malloc_desc2type": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_last_fail": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_type_allocated": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_type_freed": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_type_list": {
+            "kernel": true,
+            "offset": null
+        },
+        "malloc_uninit": {
+            "kernel": true,
+            "offset": null
+        },
         "max": {
+            "offset": null
+        },
+        "maybe_preempt": {
+            "offset": null
+        },
+        "maybe_yield": {
+            "kernel": true,
+            "offset": null
+        },
+        "mb_free_ext": {
+            "kernel": true,
             "offset": null
         },
         "mblen": {
@@ -2761,27 +5136,43 @@
             "offset": "9000"
         },
         "memcmp": {
+            "kernel": true,
             "offset": "464e0"
         },
         "memcpy": {
+            "kernel": true,
             "offset": "46530"
         },
         "memmem": {
             "offset": null
         },
         "memmove": {
+            "kernel": true,
             "offset": "46590"
         },
         "memrchr": {
             "offset": "45db0"
         },
         "memset": {
+            "kernel": true,
             "offset": "465f0"
         },
         "mergesort": {
             "offset": "446f0"
         },
         "mfence": {
+            "offset": null
+        },
+        "mi_switch": {
+            "kernel": true,
+            "offset": null
+        },
+        "microtime": {
+            "kernel": true,
+            "offset": null
+        },
+        "microuptime": {
+            "kernel": true,
             "offset": null
         },
         "min": {
@@ -2803,13 +5194,72 @@
             "offset": "9030"
         },
         "modf": {
+            "kernel": true,
             "offset": "2cbf0"
         },
         "modff": {
+            "kernel": true,
             "offset": "55a40"
         },
         "modfl": {
+            "kernel": true,
             "offset": "55aa0"
+        },
+        "module_file": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_getfnext": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_getid": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_getname": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_lookupbyid": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_lookupbyname": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_quiesce": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_reference": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_register_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_release": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_setspecific": {
+            "kernel": true,
+            "offset": null
+        },
+        "module_unload": {
+            "kernel": true,
+            "offset": null
+        },
+        "mountcheckdirs": {
+            "kernel": true,
+            "offset": null
         },
         "mq_close": {
             "offset": null
@@ -2845,6 +5295,39 @@
             "offset": "68f0"
         },
         "msleep_spin": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_pool_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_pool_create": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_pool_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_pool_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "mtx_sysinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "mutex_init": {
+            "kernel": true,
             "offset": null
         },
         "nan": {
@@ -2856,34 +5339,52 @@
         "nanl": {
             "offset": "2ccb0"
         },
+        "nanotime": {
+            "kernel": true,
+            "offset": null
+        },
+        "nanouptime": {
+            "kernel": true,
+            "offset": null
+        },
         "nearbyint": {
+            "kernel": true,
             "offset": "55ba0"
         },
         "nearbyintf": {
+            "kernel": true,
             "offset": "55c00"
         },
         "nearbyintl": {
+            "kernel": true,
             "offset": "55c60"
         },
         "new_unrhdr": {
+            "kernel": true,
             "offset": null
         },
         "nextafter": {
+            "kernel": true,
             "offset": "55cc0"
         },
         "nextafterf": {
+            "kernel": true,
             "offset": "55e10"
         },
         "nextafterl": {
+            "kernel": true,
             "offset": "55f00"
         },
         "nexttoward": {
+            "kernel": true,
             "offset": "56180"
         },
         "nexttowardf": {
+            "kernel": true,
             "offset": "56300"
         },
         "nexttowardl": {
+            "kernel": true,
             "offset": "55f00"
         },
         "nextwctype": {
@@ -2899,12 +5400,14 @@
             "offset": null
         },
         "nosys": {
+            "kernel": true,
             "offset": null
         },
         "nrand48": {
             "offset": "68a0"
         },
         "nullop": {
+            "kernel": true,
             "offset": null
         },
         "omax": {
@@ -2917,6 +5420,34 @@
             "offset": "3fef0"
         },
         "openlog": {
+            "offset": null
+        },
+        "osd_call": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_del": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_deregister": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "osd_set": {
+            "kernel": true,
             "offset": null
         },
         "outb": {
@@ -2937,19 +5468,318 @@
         "outw": {
             "offset": null
         },
+        "p_candebug": {
+            "kernel": true,
+            "offset": null
+        },
+        "p_cansched": {
+            "kernel": true,
+            "offset": null
+        },
+        "p_cansee": {
+            "kernel": true,
+            "offset": null
+        },
+        "p_cansignal": {
+            "kernel": true,
+            "offset": null
+        },
+        "p_canwait": {
+            "kernel": true,
+            "offset": null
+        },
         "panic": {
+            "kernel": true,
+            "offset": null
+        },
+        "pargs_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "pargs_drop": {
+            "kernel": true,
+            "offset": null
+        },
+        "pargs_hold": {
+            "kernel": true,
             "offset": null
         },
         "pclose": {
             "offset": "407a0"
         },
+        "pcpu_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "pcpu_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "pcpu_init": {
+            "kernel": true,
+            "offset": null
+        },
         "perror": {
             "offset": "91b0"
         },
+        "pfind": {
+            "kernel": true,
+            "offset": null
+        },
+        "pgfind": {
+            "kernel": true,
+            "offset": null
+        },
+        "pgsigio": {
+            "kernel": true,
+            "offset": null
+        },
+        "pgsignal": {
+            "kernel": true,
+            "offset": null
+        },
         "phashinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "pksignal": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_activate": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_align_superpage": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_bootstrap": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_change_attr": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_change_wiring": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_clear_modify": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_clear_reference": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_copy": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_copy_page": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_demote_DMAP": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_enter": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_enter_object": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_enter_quick": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_extract": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_extract_and_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_growkernel": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_init_pat": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_all": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_cache": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_cache_pages": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_cache_range": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_page": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_invalidate_range": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_is_modified": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_is_prefaultable": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_is_referenced": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_kenter": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_kenter_temporary": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_kextract": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_kremove": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_map": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_mapbios": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_mapdev": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_mapdev_attr": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_mincore": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_object_init_pt": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_page_exists_quick": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_page_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_page_is_mapped": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_page_set_memattr": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_page_wired_mappings": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_pinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_pinit0": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_protect": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_qenter": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_qremove": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_release": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_remove": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_remove_all": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_remove_pages": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_remove_write": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_sync_icache": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_ts_referenced": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_unmapdev": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_zero_page": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_zero_page_area": {
+            "kernel": true,
+            "offset": null
+        },
+        "pmap_zero_page_idle": {
+            "kernel": true,
             "offset": null
         },
         "poll_no_poll": {
+            "kernel": true,
             "offset": null
         },
         "popen": {
@@ -3024,25 +5854,287 @@
         "posix_spawnp": {
             "offset": "40bd0"
         },
+        "postsig": {
+            "kernel": true,
+            "offset": null
+        },
         "pow": {
+            "kernel": true,
             "offset": "4e820"
         },
         "powf": {
+            "kernel": true,
             "offset": "4efe0"
         },
+        "ppsratecheck": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_bootstrap_relocate": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_delete_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_fetch_addr": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_fetch_size": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_search_by_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_search_by_type": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_search_info": {
+            "kernel": true,
+            "offset": null
+        },
+        "preload_search_next_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "pri_to_rtp": {
+            "kernel": true,
+            "offset": null
+        },
         "printf": {
+            "kernel": true,
             "offset": "9220"
         },
+        "prison_allow": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_canseemount": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_check_af": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_check_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_enforce_statfs": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_equal_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_find_child": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_find_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_flag": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_free_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_get_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_hold_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_if": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_ischild": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_local_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_lock": {
+            "offset": null
+        },
+        "prison_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_owns_vnet": {
+            "offset": null
+        },
+        "prison_priv_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_proc_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_proc_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_racct_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_racct_foreach": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_racct_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_racct_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_remote_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_saddrsel_ip4": {
+            "kernel": true,
+            "offset": null
+        },
+        "prison_unlock": {
+            "offset": null
+        },
+        "proc_linkup": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_linkup0": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_read_dbregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_read_fpregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_read_regs": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_reap": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_reparent": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_rwmem": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_sstep": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_write_dbregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_write_fpregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "proc_write_regs": {
+            "kernel": true,
+            "offset": null
+        },
+        "procinit": {
+            "kernel": true,
+            "offset": null
+        },
         "profclock": {
+            "kernel": true,
             "offset": null
         },
         "psignal": {
             "offset": "40f60"
         },
+        "pstats_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "pstats_fork": {
+            "kernel": true,
+            "offset": null
+        },
+        "pstats_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "pte_load": {
+            "offset": null
+        },
+        "pte_load_store": {
+            "offset": null
+        },
+        "pte_store": {
+            "offset": null
+        },
         "pthread_rwlockattr_getkind_np": {
             "offset": null
         },
         "pthread_rwlockattr_setkind_np": {
+            "offset": null
+        },
+        "ptrace_clear_single_step": {
+            "kernel": true,
+            "offset": null
+        },
+        "ptrace_set_pc": {
+            "kernel": true,
+            "offset": null
+        },
+        "ptrace_single_step": {
+            "kernel": true,
+            "offset": null
+        },
+        "ptracestop": {
+            "kernel": true,
             "offset": null
         },
         "ptsname": {
@@ -3088,9 +6180,11 @@
             "offset": null
         },
         "qsort": {
+            "kernel": true,
             "offset": "9480"
         },
         "qsort_r": {
+            "kernel": true,
             "offset": null
         },
         "radixsort": {
@@ -3103,7 +6197,12 @@
             "offset": "1f690"
         },
         "random": {
+            "kernel": true,
             "offset": "45400"
+        },
+        "ratecheck": {
+            "kernel": true,
+            "offset": null
         },
         "rcmd": {
             "offset": null
@@ -3127,6 +6226,10 @@
             "offset": null
         },
         "rdmsr": {
+            "offset": null
+        },
+        "rdmsr_safe": {
+            "kernel": true,
             "offset": null
         },
         "rdpmc": {
@@ -3168,6 +6271,10 @@
         "re_exec": {
             "offset": null
         },
+        "read_cpu_time": {
+            "kernel": true,
+            "offset": null
+        },
         "read_rflags": {
             "offset": null
         },
@@ -3178,16 +6285,28 @@
             "offset": "41180"
         },
         "realitexpire": {
+            "kernel": true,
             "offset": null
         },
         "realloc": {
+            "kernel": true,
             "offset": "1fcd0"
         },
         "reallocf": {
+            "kernel": true,
             "offset": "457c0"
         },
         "realpath": {
             "offset": "45800"
+        },
+        "refcount_acquire": {
+            "offset": null
+        },
+        "refcount_init": {
+            "offset": null
+        },
+        "refcount_release": {
+            "offset": null
         },
         "regcomp": {
             "offset": null
@@ -3202,12 +6321,15 @@
             "offset": null
         },
         "remainder": {
+            "kernel": true,
             "offset": "50470"
         },
         "remainderf": {
+            "kernel": true,
             "offset": "504e0"
         },
         "remainderl": {
+            "kernel": true,
             "offset": "50550"
         },
         "remove": {
@@ -3217,15 +6339,23 @@
             "offset": null
         },
         "remquo": {
+            "kernel": true,
             "offset": "505c0"
         },
         "remquof": {
+            "kernel": true,
             "offset": "50630"
         },
         "remquol": {
+            "kernel": true,
             "offset": "506a0"
         },
         "reset_dbregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "resettodr": {
+            "kernel": true,
             "offset": null
         },
         "rewind": {
@@ -3241,36 +6371,47 @@
             "offset": null
         },
         "rindex": {
+            "kernel": true,
             "offset": "45de0"
         },
         "rint": {
+            "kernel": true,
             "offset": "56450"
         },
         "rintf": {
+            "kernel": true,
             "offset": "565d0"
         },
         "rintl": {
+            "kernel": true,
             "offset": "58420"
         },
         "root_mount_hold": {
+            "kernel": true,
             "offset": null
         },
         "root_mount_rel": {
+            "kernel": true,
             "offset": null
         },
         "root_mount_wait": {
+            "kernel": true,
             "offset": null
         },
         "root_mounted": {
+            "kernel": true,
             "offset": null
         },
         "round": {
+            "kernel": true,
             "offset": "56660"
         },
         "roundf": {
+            "kernel": true,
             "offset": "566f0"
         },
         "roundl": {
+            "kernel": true,
             "offset": "56780"
         },
         "rpmatch": {
@@ -3285,61 +6426,135 @@
         "rss": {
             "offset": null
         },
+        "rtp_to_pri": {
+            "kernel": true,
+            "offset": null
+        },
+        "ruadd": {
+            "kernel": true,
+            "offset": null
+        },
+        "rucollect": {
+            "kernel": true,
+            "offset": null
+        },
+        "rufetch": {
+            "kernel": true,
+            "offset": null
+        },
+        "rufetchcalc": {
+            "kernel": true,
+            "offset": null
+        },
+        "rufetchtd": {
+            "kernel": true,
+            "offset": null
+        },
         "runq_add": {
+            "kernel": true,
             "offset": null
         },
         "runq_add_pri": {
+            "kernel": true,
             "offset": null
         },
         "runq_check": {
+            "kernel": true,
             "offset": null
         },
         "runq_choose": {
+            "kernel": true,
             "offset": null
         },
         "runq_choose_from": {
+            "kernel": true,
             "offset": null
         },
         "runq_choose_fuzz": {
+            "kernel": true,
             "offset": null
         },
         "runq_init": {
+            "kernel": true,
             "offset": null
         },
         "runq_remove": {
+            "kernel": true,
             "offset": null
         },
         "runq_remove_idx": {
+            "kernel": true,
             "offset": null
         },
         "ruserok": {
             "offset": null
         },
+        "ruxagg": {
+            "kernel": true,
+            "offset": null
+        },
+        "rw_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "rw_init_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "rw_sysinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "rw_sysinit_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "rw_wowned": {
+            "kernel": true,
+            "offset": null
+        },
+        "savectx": {
+            "kernel": true,
+            "offset": null
+        },
+        "sbuf_new_for_sysctl": {
+            "kernel": true,
+            "offset": null
+        },
         "scalb": {
+            "kernel": true,
             "offset": "4f660"
         },
         "scalbf": {
+            "kernel": true,
             "offset": "4f730"
         },
         "scalbln": {
+            "kernel": true,
             "offset": "56800"
         },
         "scalblnf": {
+            "kernel": true,
             "offset": "56820"
         },
         "scalblnl": {
+            "kernel": true,
             "offset": "56840"
         },
         "scalbn": {
+            "kernel": true,
             "offset": "58430"
         },
         "scalbnf": {
+            "kernel": true,
             "offset": "58460"
         },
         "scalbnl": {
+            "kernel": true,
             "offset": "58490"
         },
         "scanc": {
+            "kernel": true,
             "offset": null
         },
         "scandir": {
@@ -3348,16 +6563,247 @@
         "scanf": {
             "offset": "a160"
         },
+        "sched_add": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_affinity": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_bind": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_choose": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_class": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_clock": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_exit_thread": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_fork": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_fork_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_fork_thread": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_idletd": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_is_bound": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_lend_prio": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_lend_user_prio": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_load": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_nice": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_pctcpu": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_pin": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_preempt": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_prio": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_relinquish": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_rem": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_rr_interval": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_runnable": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_sizeof_proc": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_sizeof_thread": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_sleep": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_switch": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_tdname": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_throw": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_tick": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_unbind": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_unlend_prio": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_unpin": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_user_prio": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_userret": {
+            "kernel": true,
+            "offset": null
+        },
+        "sched_wakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "schedinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "sdtossd": {
+            "kernel": true,
+            "offset": null
+        },
+        "securelevel_ge": {
+            "kernel": true,
+            "offset": null
+        },
+        "securelevel_gt": {
+            "kernel": true,
+            "offset": null
+        },
         "seed48": {
             "offset": "6720"
         },
         "seekdir": {
             "offset": "412b0"
         },
+        "seldrain": {
+            "kernel": true,
+            "offset": null
+        },
+        "selrecord": {
+            "kernel": true,
+            "offset": null
+        },
+        "seltdfini": {
+            "kernel": true,
+            "offset": null
+        },
+        "selwakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "selwakeuppri": {
+            "kernel": true,
+            "offset": null
+        },
         "semctl": {
             "offset": null
         },
+        "semexit": {
+            "offset": null
+        },
+        "sendsig": {
+            "kernel": true,
+            "offset": null
+        },
+        "sess_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "sess_release": {
+            "kernel": true,
+            "offset": null
+        },
         "set_cputicker": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_dbregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_dumper": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_fpregs": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_mcontext": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_pcb_flags": {
+            "offset": null
+        },
+        "set_regs": {
+            "kernel": true,
+            "offset": null
+        },
+        "set_user_ldt": {
+            "kernel": true,
             "offset": null
         },
         "setbuf": {
@@ -3366,10 +6812,14 @@
         "setbuffer": {
             "offset": null
         },
+        "setconf": {
+            "offset": null
+        },
         "setdomainname": {
             "offset": null
         },
         "setenv": {
+            "kernel": true,
             "offset": "42be0"
         },
         "setgrent": {
@@ -3391,6 +6841,7 @@
             "offset": null
         },
         "setjmp": {
+            "kernel": true,
             "offset": "46320"
         },
         "setkey": {
@@ -3438,6 +6889,10 @@
         "setruid": {
             "offset": null
         },
+        "setrunnable": {
+            "kernel": true,
+            "offset": null
+        },
         "setservent": {
             "offset": null
         },
@@ -3446,6 +6901,14 @@
         },
         "setstate": {
             "offset": "45710"
+        },
+        "setsugid": {
+            "kernel": true,
+            "offset": null
+        },
+        "setugidsafety": {
+            "kernel": true,
+            "offset": null
         },
         "setusershell": {
             "offset": null
@@ -3459,16 +6922,73 @@
         "setvbuf": {
             "offset": "a3e0"
         },
+        "shared_page_fill": {
+            "kernel": true,
+            "offset": null
+        },
+        "shm_mmap": {
+            "kernel": true,
+            "offset": null
+        },
+        "shmexit": {
+            "kernel": true,
+            "offset": null
+        },
+        "shmfork": {
+            "kernel": true,
+            "offset": null
+        },
+        "should_yield": {
+            "kernel": true,
+            "offset": null
+        },
         "shutdown_nice": {
+            "kernel": true,
+            "offset": null
+        },
+        "sig_ffs": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigacts_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigacts_copy": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigacts_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigacts_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigacts_shared": {
+            "kernel": true,
             "offset": null
         },
         "sigblock": {
             "offset": "3e670"
         },
+        "sigev_findtd": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigexit": {
+            "kernel": true,
+            "offset": null
+        },
         "sighold": {
             "offset": null
         },
         "sigignore": {
+            "offset": null
+        },
+        "siginit": {
+            "kernel": true,
             "offset": null
         },
         "siginterrupt": {
@@ -3478,12 +6998,42 @@
             "offset": "3e410"
         },
         "significand": {
+            "kernel": true,
             "offset": "56880"
         },
         "significandf": {
+            "kernel": true,
             "offset": "568b0"
         },
+        "signotify": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigonstack": {
+            "kernel": true,
+            "offset": null
+        },
         "sigpause": {
+            "offset": null
+        },
+        "sigqueue_delete": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigqueue_delete_proc": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigqueue_flush": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigqueue_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "sigqueue_take": {
+            "kernel": true,
             "offset": null
         },
         "sigrelse": {
@@ -3495,6 +7045,9 @@
         "sigsetmask": {
             "offset": "3e610"
         },
+        "sigsetmasked": {
+            "offset": null
+        },
         "sigstack": {
             "offset": null
         },
@@ -3502,30 +7055,177 @@
             "offset": "3e560"
         },
         "sin": {
+            "kernel": true,
             "offset": "568e0"
         },
         "sinf": {
+            "kernel": true,
             "offset": "56cb0"
         },
         "sinh": {
+            "kernel": true,
             "offset": "4f800"
         },
         "sinhf": {
+            "kernel": true,
             "offset": "4f930"
         },
         "sinl": {
+            "kernel": true,
             "offset": "56fb0"
         },
         "skpc": {
+            "kernel": true,
+            "offset": null
+        },
+        "sleepinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "smp_no_rendevous_barrier": {
+            "kernel": true,
+            "offset": null
+        },
+        "smp_rendezvous": {
+            "kernel": true,
+            "offset": null
+        },
+        "smp_rendezvous_cpus": {
+            "kernel": true,
             "offset": null
         },
         "snprintf": {
+            "kernel": true,
             "offset": "a520"
+        },
+        "so_error_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_error_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_linger_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_linger_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_listeners_apply_all": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_lock": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_options_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_options_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_protosw_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_protosw_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_setsockopt": {
+            "offset": null
+        },
+        "so_sockbuf_rcv": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sockbuf_snd": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sorwakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sorwakeup_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sotoinpcb": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sototcpcb": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sowwakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_sowwakeup_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_state_get": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_state_set": {
+            "kernel": true,
+            "offset": null
+        },
+        "so_unlock": {
+            "kernel": true,
+            "offset": null
         },
         "sockatmark": {
             "offset": null
         },
         "softclock": {
+            "kernel": true,
+            "offset": null
+        },
+        "sogetopt": {
+            "kernel": true,
+            "offset": null
+        },
+        "soopt_getm": {
+            "kernel": true,
+            "offset": null
+        },
+        "soopt_mcopyin": {
+            "kernel": true,
+            "offset": null
+        },
+        "soopt_mcopyout": {
+            "kernel": true,
+            "offset": null
+        },
+        "sooptcopyin": {
+            "kernel": true,
+            "offset": null
+        },
+        "sooptcopyout": {
+            "kernel": true,
+            "offset": null
+        },
+        "sosetopt": {
+            "kernel": true,
+            "offset": null
+        },
+        "spinlock_enter": {
+            "kernel": true,
+            "offset": null
+        },
+        "spinlock_exit": {
+            "kernel": true,
             "offset": null
         },
         "spl0": {
@@ -3577,15 +7277,19 @@
             "offset": null
         },
         "sprintf": {
+            "kernel": true,
             "offset": "a640"
         },
         "sqrt": {
+            "kernel": true,
             "offset": "50720"
         },
         "sqrtf": {
+            "kernel": true,
             "offset": "50750"
         },
         "sqrtl": {
+            "kernel": true,
             "offset": "50780"
         },
         "sradixsort": {
@@ -3601,24 +7305,41 @@
             "offset": null
         },
         "srandom": {
+            "kernel": true,
             "offset": "45280"
         },
         "srandomdev": {
             "offset": "454c0"
         },
         "sscanf": {
+            "kernel": true,
             "offset": "a740"
         },
+        "ssdtosd": {
+            "kernel": true,
+            "offset": null
+        },
+        "ssdtosyssd": {
+            "kernel": true,
+            "offset": null
+        },
         "startprofclock": {
+            "kernel": true,
             "offset": null
         },
         "statclock": {
+            "kernel": true,
             "offset": null
         },
         "statvfs": {
             "offset": "41520"
         },
+        "stopevent": {
+            "kernel": true,
+            "offset": null
+        },
         "stopprofclock": {
+            "kernel": true,
             "offset": null
         },
         "stpcpy": {
@@ -3628,30 +7349,36 @@
             "offset": null
         },
         "strcasecmp": {
+            "kernel": true,
             "offset": "1f700"
         },
         "strcasestr": {
             "offset": null
         },
         "strcat": {
+            "kernel": true,
             "offset": "46660"
         },
         "strchr": {
             "offset": "a840"
         },
         "strcmp": {
+            "kernel": true,
             "offset": "467a0"
         },
         "strcoll": {
             "offset": "aa00"
         },
         "strcpy": {
+            "kernel": true,
             "offset": "46830"
         },
         "strcspn": {
+            "kernel": true,
             "offset": "45e40"
         },
         "strdup": {
+            "kernel": true,
             "offset": "1f7b0"
         },
         "strerror": {
@@ -3667,39 +7394,47 @@
             "offset": "aa60"
         },
         "strlcat": {
+            "kernel": true,
             "offset": "45f00"
         },
         "strlcpy": {
+            "kernel": true,
             "offset": "45f80"
         },
         "strlen": {
+            "kernel": true,
             "offset": "45fe0"
         },
         "strmode": {
             "offset": null
         },
         "strncasecmp": {
+            "kernel": true,
             "offset": "1f800"
         },
         "strncat": {
             "offset": "aa70"
         },
         "strncmp": {
+            "kernel": true,
             "offset": "aac0"
         },
         "strncpy": {
+            "kernel": true,
             "offset": "ab00"
         },
         "strndup": {
             "offset": "460d0"
         },
         "strnlen": {
+            "kernel": true,
             "offset": "46120"
         },
         "strnstr": {
             "offset": "46140"
         },
         "strpbrk": {
+            "kernel": true,
             "offset": "ab60"
         },
         "strptime": {
@@ -3709,15 +7444,18 @@
             "offset": "aba0"
         },
         "strsep": {
+            "kernel": true,
             "offset": "461e0"
         },
         "strsignal": {
             "offset": null
         },
         "strspn": {
+            "kernel": true,
             "offset": "46230"
         },
         "strstr": {
+            "kernel": true,
             "offset": "abd0"
         },
         "strtod": {
@@ -3739,6 +7477,7 @@
             "offset": "1f8a0"
         },
         "strtol": {
+            "kernel": true,
             "offset": "ad10"
         },
         "strtold": {
@@ -3751,9 +7490,11 @@
             "offset": null
         },
         "strtoq": {
+            "kernel": true,
             "offset": null
         },
         "strtoul": {
+            "kernel": true,
             "offset": "ad40"
         },
         "strtoull": {
@@ -3763,45 +7504,69 @@
             "offset": "ad60"
         },
         "strtouq": {
+            "kernel": true,
             "offset": "45d40"
         },
         "strvalid": {
+            "kernel": true,
             "offset": null
         },
         "strxfrm": {
             "offset": "ae70"
         },
         "subyte": {
+            "kernel": true,
+            "offset": null
+        },
+        "suswintr": {
+            "kernel": true,
             "offset": null
         },
         "suword": {
+            "kernel": true,
             "offset": null
         },
         "suword16": {
+            "kernel": true,
             "offset": null
         },
         "suword32": {
+            "kernel": true,
             "offset": null
         },
         "suword64": {
+            "kernel": true,
             "offset": null
         },
         "swab": {
             "offset": null
         },
         "swap_release": {
+            "kernel": true,
             "offset": null
         },
         "swap_release_by_cred": {
+            "kernel": true,
             "offset": null
         },
         "swap_reserve": {
+            "kernel": true,
             "offset": null
         },
         "swap_reserve_by_cred": {
+            "kernel": true,
             "offset": null
         },
         "swap_reserve_force": {
+            "kernel": true,
+            "offset": null
+        },
+        "swapout_procs": {
+            "kernel": true,
+            "offset": null
+        },
+        "swi_vm": {
+            "kernel": true,
             "offset": null
         },
         "swprintf": {
@@ -3809,6 +7574,18 @@
         },
         "swscanf": {
             "offset": "b0b0"
+        },
+        "sx_destroy": {
+            "kernel": true,
+            "offset": null
+        },
+        "sx_init_flags": {
+            "kernel": true,
+            "offset": null
+        },
+        "sx_sysinit": {
+            "kernel": true,
+            "offset": null
         },
         "sys___acl_aclcheck_fd": {
             "offset": null
@@ -3847,96 +7624,123 @@
             "offset": null
         },
         "sys___getcwd": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_execve": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_get_fd": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_get_file": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_get_link": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_get_pid": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_get_proc": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_set_fd": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_set_file": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_set_link": {
+            "kernel": true,
             "offset": null
         },
         "sys___mac_set_proc": {
+            "kernel": true,
             "offset": null
         },
         "sys___semctl": {
             "offset": null
         },
         "sys___setugid": {
+            "kernel": true,
             "offset": null
         },
         "sys___sysctl": {
+            "kernel": true,
             "offset": null
         },
         "sys__umtx_lock": {
+            "kernel": true,
             "offset": null
         },
         "sys__umtx_op": {
+            "kernel": true,
             "offset": null
         },
         "sys__umtx_unlock": {
+            "kernel": true,
             "offset": null
         },
         "sys_abort2": {
             "offset": null
         },
         "sys_accept": {
+            "kernel": true,
             "offset": null
         },
         "sys_access": {
+            "kernel": true,
             "offset": null
         },
         "sys_acct": {
             "offset": null
         },
         "sys_adjtime": {
+            "kernel": true,
             "offset": null
         },
         "sys_afs3_syscall": {
             "offset": null
         },
         "sys_aio_cancel": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_error": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_fsync": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_read": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_return": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_suspend": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_waitcomplete": {
+            "kernel": true,
             "offset": null
         },
         "sys_aio_write": {
+            "kernel": true,
             "offset": null
         },
         "sys_audit": {
@@ -3949,78 +7753,101 @@
             "offset": null
         },
         "sys_bind": {
+            "kernel": true,
             "offset": null
         },
         "sys_cap_enter": {
+            "kernel": true,
             "offset": null
         },
         "sys_cap_getmode": {
+            "kernel": true,
             "offset": null
         },
         "sys_cap_getrights": {
+            "kernel": true,
             "offset": null
         },
         "sys_cap_new": {
+            "kernel": true,
             "offset": null
         },
         "sys_chdir": {
+            "kernel": true,
             "offset": null
         },
         "sys_chflags": {
+            "kernel": true,
             "offset": null
         },
         "sys_chmod": {
+            "kernel": true,
             "offset": null
         },
         "sys_chown": {
+            "kernel": true,
             "offset": null
         },
         "sys_chroot": {
+            "kernel": true,
             "offset": null
         },
         "sys_clock_getres": {
+            "kernel": true,
             "offset": null
         },
         "sys_clock_gettime": {
+            "kernel": true,
             "offset": null
         },
         "sys_clock_settime": {
+            "kernel": true,
             "offset": null
         },
         "sys_close": {
+            "kernel": true,
             "offset": null
         },
         "sys_closefrom": {
             "offset": null
         },
         "sys_connect": {
+            "kernel": true,
             "offset": null
         },
         "sys_cpuset": {
+            "kernel": true,
             "offset": null
         },
         "sys_cpuset_getaffinity": {
+            "kernel": true,
             "offset": null
         },
         "sys_cpuset_getid": {
+            "kernel": true,
             "offset": null
         },
         "sys_cpuset_setaffinity": {
+            "kernel": true,
             "offset": null
         },
         "sys_cpuset_setid": {
+            "kernel": true,
             "offset": null
         },
         "sys_dup": {
+            "kernel": true,
             "offset": null
         },
         "sys_dup2": {
+            "kernel": true,
             "offset": null
         },
         "sys_eaccess": {
             "offset": null
         },
         "sys_execve": {
+            "kernel": true,
             "offset": null
         },
         "sys_extattr_delete_fd": {
@@ -4066,24 +7893,31 @@
             "offset": null
         },
         "sys_fchdir": {
+            "kernel": true,
             "offset": null
         },
         "sys_fchflags": {
+            "kernel": true,
             "offset": null
         },
         "sys_fchmod": {
+            "kernel": true,
             "offset": null
         },
         "sys_fchmodat": {
+            "kernel": true,
             "offset": null
         },
         "sys_fchown": {
+            "kernel": true,
             "offset": null
         },
         "sys_fchownat": {
+            "kernel": true,
             "offset": null
         },
         "sys_fcntl": {
+            "kernel": true,
             "offset": null
         },
         "sys_fexecve": {
@@ -4099,33 +7933,43 @@
             "offset": null
         },
         "sys_flock": {
+            "kernel": true,
             "offset": null
         },
         "sys_fork": {
+            "kernel": true,
             "offset": null
         },
         "sys_fpathconf": {
+            "kernel": true,
             "offset": null
         },
         "sys_fstat": {
+            "kernel": true,
             "offset": null
         },
         "sys_fstatat": {
+            "kernel": true,
             "offset": null
         },
         "sys_fstatfs": {
+            "kernel": true,
             "offset": null
         },
         "sys_fsync": {
+            "kernel": true,
             "offset": null
         },
         "sys_ftruncate": {
+            "kernel": true,
             "offset": null
         },
         "sys_futimes": {
+            "kernel": true,
             "offset": null
         },
         "sys_futimesat": {
+            "kernel": true,
             "offset": null
         },
         "sys_getaudit": {
@@ -4138,96 +7982,124 @@
             "offset": null
         },
         "sys_getcontext": {
+            "kernel": true,
             "offset": null
         },
         "sys_getdents": {
+            "kernel": true,
             "offset": null
         },
         "sys_getdirentries": {
+            "kernel": true,
             "offset": null
         },
         "sys_getdtablesize": {
+            "kernel": true,
             "offset": null
         },
         "sys_getegid": {
+            "kernel": true,
             "offset": null
         },
         "sys_geteuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getfh": {
             "offset": null
         },
         "sys_getfsstat": {
+            "kernel": true,
             "offset": null
         },
         "sys_getgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getgroups": {
+            "kernel": true,
             "offset": null
         },
         "sys_getitimer": {
+            "kernel": true,
             "offset": null
         },
         "sys_getlogin": {
+            "kernel": true,
             "offset": null
         },
         "sys_getloginclass": {
             "offset": null
         },
         "sys_getpeername": {
+            "kernel": true,
             "offset": null
         },
         "sys_getpgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getpgrp": {
+            "kernel": true,
             "offset": null
         },
         "sys_getpid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getppid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getpriority": {
+            "kernel": true,
             "offset": null
         },
         "sys_getresgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getresuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getrlimit": {
+            "kernel": true,
             "offset": null
         },
         "sys_getrusage": {
+            "kernel": true,
             "offset": null
         },
         "sys_getsid": {
+            "kernel": true,
             "offset": null
         },
         "sys_getsockname": {
+            "kernel": true,
             "offset": null
         },
         "sys_getsockopt": {
+            "kernel": true,
             "offset": null
         },
         "sys_gettimeofday": {
+            "kernel": true,
             "offset": null
         },
         "sys_getuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_gssd_syscall": {
             "offset": null
         },
         "sys_ioctl": {
+            "kernel": true,
             "offset": null
         },
         "sys_issetugid": {
+            "kernel": true,
             "offset": null
         },
         "sys_jail": {
@@ -4246,36 +8118,47 @@
             "offset": null
         },
         "sys_kenv": {
+            "kernel": true,
             "offset": null
         },
         "sys_kevent": {
+            "kernel": true,
             "offset": null
         },
         "sys_kill": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldfind": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldfirstmod": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldload": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldnext": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldstat": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldsym": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldunload": {
+            "kernel": true,
             "offset": null
         },
         "sys_kldunloadf": {
+            "kernel": true,
             "offset": null
         },
         "sys_kmq_notify": {
@@ -4297,129 +8180,168 @@
             "offset": null
         },
         "sys_kqueue": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_close": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_destroy": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_getvalue": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_init": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_open": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_post": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_timedwait": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_trywait": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_unlink": {
+            "kernel": true,
             "offset": null
         },
         "sys_ksem_wait": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktimer_create": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktimer_delete": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktimer_getoverrun": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktimer_gettime": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktimer_settime": {
+            "kernel": true,
             "offset": null
         },
         "sys_ktrace": {
+            "kernel": true,
             "offset": null
         },
         "sys_lchflags": {
+            "kernel": true,
             "offset": null
         },
         "sys_lchmod": {
+            "kernel": true,
             "offset": null
         },
         "sys_lchown": {
+            "kernel": true,
             "offset": null
         },
         "sys_lgetfh": {
             "offset": null
         },
         "sys_link": {
+            "kernel": true,
             "offset": null
         },
         "sys_linkat": {
+            "kernel": true,
             "offset": null
         },
         "sys_lio_listio": {
             "offset": null
         },
         "sys_listen": {
+            "kernel": true,
             "offset": null
         },
         "sys_lpathconf": {
             "offset": null
         },
         "sys_lseek": {
+            "kernel": true,
             "offset": null
         },
         "sys_lstat": {
+            "kernel": true,
             "offset": null
         },
         "sys_lutimes": {
+            "kernel": true,
             "offset": null
         },
         "sys_mac_syscall": {
+            "kernel": true,
             "offset": null
         },
         "sys_madvise": {
+            "kernel": true,
             "offset": null
         },
         "sys_mincore": {
+            "kernel": true,
             "offset": null
         },
         "sys_minherit": {
+            "kernel": true,
             "offset": null
         },
         "sys_mkdir": {
+            "kernel": true,
             "offset": null
         },
         "sys_mkdirat": {
+            "kernel": true,
             "offset": null
         },
         "sys_mkfifo": {
+            "kernel": true,
             "offset": null
         },
         "sys_mkfifoat": {
+            "kernel": true,
             "offset": null
         },
         "sys_mknod": {
+            "kernel": true,
             "offset": null
         },
         "sys_mknodat": {
+            "kernel": true,
             "offset": null
         },
         "sys_mlock": {
+            "kernel": true,
             "offset": null
         },
         "sys_mlockall": {
+            "kernel": true,
             "offset": null
         },
         "sys_mmap": {
+            "kernel": true,
             "offset": null
         },
         "sys_modfind": {
@@ -4435,9 +8357,11 @@
             "offset": null
         },
         "sys_mount": {
+            "kernel": true,
             "offset": null
         },
         "sys_mprotect": {
+            "kernel": true,
             "offset": null
         },
         "sys_msgctl": {
@@ -4456,18 +8380,23 @@
             "offset": null
         },
         "sys_msync": {
+            "kernel": true,
             "offset": null
         },
         "sys_munlock": {
+            "kernel": true,
             "offset": null
         },
         "sys_munlockall": {
+            "kernel": true,
             "offset": null
         },
         "sys_munmap": {
+            "kernel": true,
             "offset": null
         },
         "sys_nanosleep": {
+            "kernel": true,
             "offset": null
         },
         "sys_nfssvc": {
@@ -4483,6 +8412,7 @@
             "offset": null
         },
         "sys_nmount": {
+            "kernel": true,
             "offset": null
         },
         "sys_nnpfs_syscall": {
@@ -4510,9 +8440,11 @@
             "offset": null
         },
         "sys_open": {
+            "kernel": true,
             "offset": null
         },
         "sys_openat": {
+            "kernel": true,
             "offset": null
         },
         "sys_openbsd_poll": {
@@ -4522,21 +8454,27 @@
             "offset": null
         },
         "sys_pathconf": {
+            "kernel": true,
             "offset": null
         },
         "sys_pdfork": {
+            "kernel": true,
             "offset": null
         },
         "sys_pdgetpid": {
+            "kernel": true,
             "offset": null
         },
         "sys_pdkill": {
+            "kernel": true,
             "offset": null
         },
         "sys_pipe": {
+            "kernel": true,
             "offset": null
         },
         "sys_poll": {
+            "kernel": true,
             "offset": null
         },
         "sys_posix_fallocate": {
@@ -4546,111 +8484,145 @@
             "offset": null
         },
         "sys_pread": {
+            "kernel": true,
             "offset": null
         },
         "sys_preadv": {
+            "kernel": true,
             "offset": null
         },
         "sys_profil": {
+            "kernel": true,
             "offset": null
         },
         "sys_pselect": {
+            "kernel": true,
             "offset": null
         },
         "sys_ptrace": {
+            "kernel": true,
             "offset": null
         },
         "sys_pwrite": {
+            "kernel": true,
             "offset": null
         },
         "sys_pwritev": {
+            "kernel": true,
             "offset": null
         },
         "sys_quotactl": {
             "offset": null
         },
         "sys_rctl_add_rule": {
+            "kernel": true,
             "offset": null
         },
         "sys_rctl_get_limits": {
+            "kernel": true,
             "offset": null
         },
         "sys_rctl_get_racct": {
+            "kernel": true,
             "offset": null
         },
         "sys_rctl_get_rules": {
+            "kernel": true,
             "offset": null
         },
         "sys_rctl_remove_rule": {
+            "kernel": true,
             "offset": null
         },
         "sys_read": {
+            "kernel": true,
             "offset": null
         },
         "sys_readlink": {
+            "kernel": true,
             "offset": null
         },
         "sys_readlinkat": {
             "offset": null
         },
         "sys_readv": {
+            "kernel": true,
             "offset": null
         },
         "sys_reboot": {
+            "kernel": true,
             "offset": null
         },
         "sys_recvfrom": {
+            "kernel": true,
             "offset": null
         },
         "sys_recvmsg": {
+            "kernel": true,
             "offset": null
         },
         "sys_rename": {
+            "kernel": true,
             "offset": null
         },
         "sys_renameat": {
+            "kernel": true,
             "offset": null
         },
         "sys_revoke": {
+            "kernel": true,
             "offset": null
         },
         "sys_rfork": {
+            "kernel": true,
             "offset": null
         },
         "sys_rmdir": {
+            "kernel": true,
             "offset": null
         },
         "sys_rtprio": {
+            "kernel": true,
             "offset": null
         },
         "sys_rtprio_thread": {
+            "kernel": true,
             "offset": null
         },
         "sys_sbrk": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_get_priority_max": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_get_priority_min": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_getparam": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_getscheduler": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_rr_get_interval": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_setparam": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_setscheduler": {
+            "kernel": true,
             "offset": null
         },
         "sys_sched_yield": {
+            "kernel": true,
             "offset": null
         },
         "sys_sctp_generic_recvmsg": {
@@ -4666,6 +8638,7 @@
             "offset": null
         },
         "sys_select": {
+            "kernel": true,
             "offset": null
         },
         "sys_semget": {
@@ -4678,12 +8651,15 @@
             "offset": null
         },
         "sys_sendfile": {
+            "kernel": true,
             "offset": null
         },
         "sys_sendmsg": {
+            "kernel": true,
             "offset": null
         },
         "sys_sendto": {
+            "kernel": true,
             "offset": null
         },
         "sys_setaudit": {
@@ -4696,69 +8672,89 @@
             "offset": null
         },
         "sys_setcontext": {
+            "kernel": true,
             "offset": null
         },
         "sys_setegid": {
+            "kernel": true,
             "offset": null
         },
         "sys_seteuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setfib": {
             "offset": null
         },
         "sys_setgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setgroups": {
+            "kernel": true,
             "offset": null
         },
         "sys_setitimer": {
+            "kernel": true,
             "offset": null
         },
         "sys_setlogin": {
+            "kernel": true,
             "offset": null
         },
         "sys_setloginclass": {
             "offset": null
         },
         "sys_setpgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setpriority": {
+            "kernel": true,
             "offset": null
         },
         "sys_setregid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setresgid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setresuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setreuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setrlimit": {
+            "kernel": true,
             "offset": null
         },
         "sys_setsid": {
+            "kernel": true,
             "offset": null
         },
         "sys_setsockopt": {
+            "kernel": true,
             "offset": null
         },
         "sys_settimeofday": {
+            "kernel": true,
             "offset": null
         },
         "sys_setuid": {
+            "kernel": true,
             "offset": null
         },
         "sys_shm_open": {
+            "kernel": true,
             "offset": null
         },
         "sys_shm_unlink": {
+            "kernel": true,
             "offset": null
         },
         "sys_shmat": {
@@ -4777,171 +8773,383 @@
             "offset": null
         },
         "sys_shutdown": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigaction": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigaltstack": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigpending": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigprocmask": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigqueue": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigreturn": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigsuspend": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigtimedwait": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigwait": {
+            "kernel": true,
             "offset": null
         },
         "sys_sigwaitinfo": {
+            "kernel": true,
             "offset": null
         },
         "sys_socket": {
+            "kernel": true,
             "offset": null
         },
         "sys_socketpair": {
+            "kernel": true,
             "offset": null
         },
         "sys_sstk": {
+            "kernel": true,
             "offset": null
         },
         "sys_stat": {
+            "kernel": true,
             "offset": null
         },
         "sys_statfs": {
+            "kernel": true,
             "offset": null
         },
         "sys_swapcontext": {
+            "kernel": true,
             "offset": null
         },
         "sys_swapoff": {
             "offset": null
         },
         "sys_swapon": {
+            "kernel": true,
             "offset": null
         },
         "sys_symlink": {
+            "kernel": true,
             "offset": null
         },
         "sys_symlinkat": {
+            "kernel": true,
             "offset": null
         },
         "sys_sync": {
+            "kernel": true,
             "offset": null
         },
         "sys_sys_exit": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_create": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_exit": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_kill": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_kill2": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_new": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_self": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_set_name": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_suspend": {
+            "kernel": true,
             "offset": null
         },
         "sys_thr_wake": {
+            "kernel": true,
             "offset": null
         },
         "sys_truncate": {
+            "kernel": true,
             "offset": null
         },
         "sys_umask": {
+            "kernel": true,
             "offset": null
         },
         "sys_undelete": {
             "offset": null
         },
         "sys_unlink": {
+            "kernel": true,
             "offset": null
         },
         "sys_unlinkat": {
+            "kernel": true,
             "offset": null
         },
         "sys_unmount": {
+            "kernel": true,
             "offset": null
         },
         "sys_utimes": {
+            "kernel": true,
             "offset": null
         },
         "sys_utrace": {
+            "kernel": true,
             "offset": null
         },
         "sys_uuidgen": {
+            "kernel": true,
             "offset": null
         },
         "sys_vfork": {
+            "kernel": true,
             "offset": null
         },
         "sys_wait4": {
+            "kernel": true,
             "offset": null
         },
         "sys_write": {
+            "kernel": true,
             "offset": null
         },
         "sys_writev": {
+            "kernel": true,
             "offset": null
         },
         "sys_yield": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysarch_ldt": {
+            "kernel": true,
             "offset": null
         },
         "sysbeep": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_deregister": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_helper_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_helper_unregister": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_module_handler": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_register": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_thread_enter": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscall_thread_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "syscallname": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_add_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_ctx_entry_add": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_ctx_entry_del": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_ctx_entry_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_ctx_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_ctx_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_dpcpu_int": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_dpcpu_long": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_dpcpu_quad": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_find_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_handle_64": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_handle_int": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_handle_long": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_handle_opaque": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_handle_string": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_jail_param": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_lock": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_move_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_msec_to_ticks": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_register_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_remove_name": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_remove_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_rename_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_unlock": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_unregister_oid": {
+            "kernel": true,
+            "offset": null
+        },
+        "sysctl_wire_old_buffer": {
+            "kernel": true,
             "offset": null
         },
         "sysinit_add": {
+            "kernel": true,
             "offset": null
         },
         "syslog": {
             "offset": "1f970"
         },
         "tablefull": {
+            "kernel": true,
             "offset": null
         },
         "tan": {
+            "kernel": true,
             "offset": "57320"
         },
         "tanf": {
+            "kernel": true,
             "offset": "57710"
         },
         "tanh": {
+            "kernel": true,
             "offset": "579e0"
         },
         "tanhf": {
+            "kernel": true,
             "offset": "57ac0"
         },
         "tanl": {
+            "kernel": true,
             "offset": "57ba0"
         },
         "tdelete": {
+            "offset": null
+        },
+        "tdfind": {
+            "kernel": true,
+            "offset": null
+        },
+        "tdksignal": {
+            "kernel": true,
+            "offset": null
+        },
+        "tdsendsignal": {
+            "kernel": true,
+            "offset": null
+        },
+        "tdsigcleanup": {
+            "kernel": true,
+            "offset": null
+        },
+        "tdsignal": {
+            "kernel": true,
             "offset": null
         },
         "telldir": {
@@ -4951,24 +9159,118 @@
             "offset": null
         },
         "testenv": {
+            "kernel": true,
             "offset": null
         },
         "tfind": {
             "offset": null
         },
         "tgamma": {
+            "kernel": true,
             "offset": "46de0"
         },
         "tgammaf": {
+            "kernel": true,
             "offset": "57ec0"
         },
+        "thread_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_alloc_stack": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_link": {
+            "kernel": true,
+            "offset": null
+        },
         "thread_lock_block": {
+            "kernel": true,
             "offset": null
         },
         "thread_lock_set": {
+            "kernel": true,
             "offset": null
         },
         "thread_lock_unblock": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_reap": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_single": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_single_end": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_stash": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_stopped": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_suspend_check": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_suspend_one": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_suspend_switch": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_unlink": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_unsuspend": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_unsuspend_one": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_unthread": {
+            "kernel": true,
+            "offset": null
+        },
+        "thread_wait": {
+            "kernel": true,
+            "offset": null
+        },
+        "threadinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "tidhash_add": {
+            "kernel": true,
+            "offset": null
+        },
+        "tidhash_remove": {
+            "kernel": true,
             "offset": null
         },
         "time": {
@@ -4981,6 +9283,7 @@
             "offset": null
         },
         "timeout": {
+            "kernel": true,
             "offset": null
         },
         "timer_create": {
@@ -5007,6 +9310,14 @@
         "timeval2bintime": {
             "offset": null
         },
+        "timevaladd": {
+            "kernel": true,
+            "offset": null
+        },
+        "timevalsub": {
+            "kernel": true,
+            "offset": null
+        },
         "timezone": {
             "offset": "d8828"
         },
@@ -5029,21 +9340,31 @@
             "offset": "b1f0"
         },
         "towlower": {
+            "kernel": true,
             "offset": "b200"
         },
         "towupper": {
+            "kernel": true,
             "offset": "b210"
         },
         "tprintf": {
+            "kernel": true,
+            "offset": null
+        },
+        "trapsignal": {
+            "kernel": true,
             "offset": null
         },
         "trunc": {
+            "kernel": true,
             "offset": "57ee0"
         },
         "truncf": {
+            "kernel": true,
             "offset": "57fa0"
         },
         "truncl": {
+            "kernel": true,
             "offset": "58010"
         },
         "tsearch": {
@@ -5056,21 +9377,31 @@
             "offset": null
         },
         "ttyprintf": {
+            "kernel": true,
             "offset": null
         },
         "tunable_int_init": {
+            "kernel": true,
             "offset": null
         },
         "tunable_long_init": {
+            "kernel": true,
             "offset": null
         },
         "tunable_quad_init": {
+            "kernel": true,
             "offset": null
         },
         "tunable_str_init": {
+            "kernel": true,
             "offset": null
         },
         "tunable_ulong_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "tvtohz": {
+            "kernel": true,
             "offset": null
         },
         "twalk": {
@@ -5085,6 +9416,45 @@
         "ualarm": {
             "offset": null
         },
+        "ui_racct_foreach": {
+            "kernel": true,
+            "offset": null
+        },
+        "uifind": {
+            "kernel": true,
+            "offset": null
+        },
+        "uifree": {
+            "kernel": true,
+            "offset": null
+        },
+        "uihashinit": {
+            "kernel": true,
+            "offset": null
+        },
+        "uihold": {
+            "kernel": true,
+            "offset": null
+        },
+        "uiomove": {
+            "kernel": true,
+            "offset": null
+        },
+        "uiomove_frombuf": {
+            "kernel": true,
+            "offset": null
+        },
+        "uiomove_fromphys": {
+            "kernel": true,
+            "offset": null
+        },
+        "uiomove_nofault": {
+            "kernel": true,
+            "offset": null
+        },
+        "uiomoveco": {
+            "offset": null
+        },
         "ulimit": {
             "offset": null
         },
@@ -5095,81 +9465,105 @@
             "offset": null
         },
         "uma_find_refcnt": {
+            "kernel": true,
             "offset": null
         },
         "uma_prealloc": {
+            "kernel": true,
             "offset": null
         },
         "uma_reclaim": {
+            "kernel": true,
             "offset": null
         },
         "uma_set_align": {
+            "kernel": true,
             "offset": null
         },
         "uma_startup": {
+            "kernel": true,
             "offset": null
         },
         "uma_startup2": {
+            "kernel": true,
             "offset": null
         },
         "uma_zalloc": {
             "offset": null
         },
         "uma_zalloc_arg": {
+            "kernel": true,
             "offset": null
         },
         "uma_zcreate": {
+            "kernel": true,
             "offset": null
         },
         "uma_zdestroy": {
+            "kernel": true,
             "offset": null
         },
         "uma_zfree": {
             "offset": null
         },
         "uma_zfree_arg": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_exhausted": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_exhausted_nolock": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_get_cur": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_get_max": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_allocf": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_fini": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_freef": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_init": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_max": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_obj": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_zfini": {
+            "kernel": true,
             "offset": null
         },
         "uma_zone_set_zinit": {
+            "kernel": true,
             "offset": null
         },
         "uma_zsecond_add": {
+            "kernel": true,
             "offset": null
         },
         "uma_zsecond_create": {
+            "kernel": true,
             "offset": null
         },
         "uname": {
@@ -5185,21 +9579,60 @@
             "offset": null
         },
         "unsetenv": {
+            "kernel": true,
             "offset": "436a0"
         },
+        "unsleep": {
+            "offset": null
+        },
         "untimeout": {
+            "kernel": true,
             "offset": null
         },
         "unwhiteout": {
             "offset": null
         },
+        "update_gdt_fsbase": {
+            "kernel": true,
+            "offset": null
+        },
+        "update_gdt_gsbase": {
+            "kernel": true,
+            "offset": null
+        },
         "uprintf": {
+            "kernel": true,
             "offset": null
         },
         "ureadc": {
+            "kernel": true,
             "offset": null
         },
         "user_from_uid": {
+            "offset": null
+        },
+        "user_ldt_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "user_ldt_deref": {
+            "kernel": true,
+            "offset": null
+        },
+        "user_ldt_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "useracc": {
+            "kernel": true,
+            "offset": null
+        },
+        "userland_sysctl": {
+            "kernel": true,
+            "offset": null
+        },
+        "userret": {
+            "kernel": true,
             "offset": null
         },
         "usrinfoinit": {
@@ -5238,26 +9671,327 @@
         "vfwscanf": {
             "offset": "c470"
         },
+        "vm_fault": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_copy_entry": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_disable_pagefaults": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_enable_pagefaults": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_hold": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_quick_hold_pages": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_unwire": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_fault_wire": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_forkproc": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_imgact_map_page": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_imgact_unmap_page": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_init2": {
+            "kernel": true,
+            "offset": null
+        },
         "vm_ksubmap_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_busy": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_check_protection": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_create": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_delete": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_entry_behavior": {
+            "offset": null
+        },
+        "vm_map_entry_system_wired_count": {
+            "offset": null
+        },
+        "vm_map_entry_user_wired_count": {
+            "offset": null
+        },
+        "vm_map_find": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_findspace": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_fixed": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_growstack": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_inherit": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_init": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_insert": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_lookup": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_lookup_done": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_lookup_entry": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_lookup_locked": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_madvise": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_max": {
+            "offset": null
+        },
+        "vm_map_min": {
+            "offset": null
+        },
+        "vm_map_modflags": {
+            "offset": null
+        },
+        "vm_map_pmap": {
+            "offset": null
+        },
+        "vm_map_pmap_enter": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_protect": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_remove": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_simplify_entry": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_stack": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_startup": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_submap": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_sync": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_unbusy": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_unwire": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_wait_busy": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_wakeup": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_map_wire": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_mmap": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_mmap_to_errno": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_page_count_min": {
+            "offset": null
+        },
+        "vm_page_count_severe": {
+            "offset": null
+        },
+        "vm_page_count_target": {
+            "offset": null
+        },
+        "vm_paging_needed": {
+            "offset": null
+        },
+        "vm_paging_target": {
+            "offset": null
+        },
+        "vm_set_page_size": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_sync_icache": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_thread_dispose": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_thread_new": {
+            "kernel": true,
+            "offset": null
+        },
+        "vm_waitproc": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_acquire_ref": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_alloc": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_exec": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_exit": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_exitfree": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_fork": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_free": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_pmap": {
+            "offset": null
+        },
+        "vmspace_resident_count": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_swap_count": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_unshare": {
+            "kernel": true,
+            "offset": null
+        },
+        "vmspace_wired_count": {
+            "kernel": true,
+            "offset": null
+        },
+        "vnode_pager_setsize": {
+            "kernel": true,
+            "offset": null
+        },
+        "vntype_to_kinfo": {
+            "kernel": true,
             "offset": null
         },
         "vprintf": {
+            "kernel": true,
             "offset": "c4e0"
         },
         "vscanf": {
             "offset": "c560"
         },
+        "vslock": {
+            "kernel": true,
+            "offset": null
+        },
         "vsnprintf": {
+            "kernel": true,
             "offset": "c5d0"
         },
         "vsnrprintf": {
+            "kernel": true,
             "offset": null
         },
         "vsprintf": {
+            "kernel": true,
             "offset": "c680"
         },
         "vsscanf": {
+            "kernel": true,
             "offset": "c6e0"
+        },
+        "vsunlock": {
+            "kernel": true,
+            "offset": null
         },
         "vswprintf": {
             "offset": "c760"
@@ -5267,6 +10001,10 @@
         },
         "vsyslog": {
             "offset": "1fa30"
+        },
+        "vtopte": {
+            "kernel": true,
+            "offset": null
         },
         "vwarn": {
             "offset": "3f500"
@@ -5284,9 +10022,11 @@
             "offset": "c940"
         },
         "wakeup": {
+            "kernel": true,
             "offset": null
         },
         "wakeup_one": {
+            "kernel": true,
             "offset": null
         },
         "warn": {
@@ -5433,6 +10173,63 @@
         "wcwidth": {
             "offset": null
         },
+        "witness_assert": {
+            "offset": null
+        },
+        "witness_checkorder": {
+            "offset": null
+        },
+        "witness_defineorder": {
+            "offset": null
+        },
+        "witness_destroy": {
+            "offset": null
+        },
+        "witness_display_spinlock": {
+            "offset": null
+        },
+        "witness_downgrade": {
+            "offset": null
+        },
+        "witness_file": {
+            "offset": null
+        },
+        "witness_init": {
+            "offset": null
+        },
+        "witness_line": {
+            "offset": null
+        },
+        "witness_list_locks": {
+            "offset": null
+        },
+        "witness_lock": {
+            "offset": null
+        },
+        "witness_norelease": {
+            "offset": null
+        },
+        "witness_releaseok": {
+            "offset": null
+        },
+        "witness_restore": {
+            "offset": null
+        },
+        "witness_save": {
+            "offset": null
+        },
+        "witness_thread_exit": {
+            "offset": null
+        },
+        "witness_unlock": {
+            "offset": null
+        },
+        "witness_upgrade": {
+            "offset": null
+        },
+        "witness_warn": {
+            "offset": null
+        },
         "wmemchr": {
             "offset": "d910"
         },
@@ -5463,6 +10260,10 @@
         "wrmsr": {
             "offset": null
         },
+        "wrmsr_safe": {
+            "kernel": true,
+            "offset": null
+        },
         "wscanf": {
             "offset": "daf0"
         },
@@ -5470,24 +10271,35 @@
             "offset": null
         },
         "y0": {
+            "kernel": true,
             "offset": "4aa40"
         },
         "y0f": {
+            "kernel": true,
             "offset": "4b0d0"
         },
         "y1": {
+            "kernel": true,
             "offset": "4b810"
         },
         "y1f": {
+            "kernel": true,
             "offset": "4bdf0"
         },
         "yn": {
+            "kernel": true,
             "offset": "4c610"
         },
         "ynf": {
+            "kernel": true,
             "offset": "4cb90"
         },
         "zone_drain": {
+            "kernel": true,
+            "offset": null
+        },
+        "zpfind": {
+            "kernel": true,
             "offset": null
         }
     },
@@ -5657,6 +10469,7 @@
             "offset": "1600"
         },
         "__stack_chk_fail": {
+            "kernel": true,
             "offset": "dde0"
         },
         "__stack_chk_guard": {
@@ -5818,7 +10631,7 @@
         },
         "dlsym": {
             "offset": "1ee80",
-            "syscall": "591 // recheck, clashes std C dlsym in direct call mode"
+            "syscall": "591"
         },
         "dup": {
             "offset": "be30",
@@ -6065,6 +10878,14 @@
         },
         "htons": {
             "offset": "110a0"
+        },
+        "inet_ntop": {
+            "kernel": true,
+            "offset": "109d0"
+        },
+        "inet_pton": {
+            "kernel": true,
+            "offset": "10d10"
         },
         "ioctl": {
             "offset": "bf70",
@@ -6357,6 +11178,7 @@
             "syscall": "191"
         },
         "pause": {
+            "kernel": true,
             "offset": "84f0"
         },
         "pipe": {
@@ -7196,6 +12018,7 @@
             "syscall": "36"
         },
         "sysarch": {
+            "kernel": true,
             "offset": "c710",
             "syscall": "165"
         },
